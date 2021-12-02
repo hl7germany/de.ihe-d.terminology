@@ -1,0 +1,145 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+                <id value="1.2.276.0.76.11.32--20141219000000"/>
+                <meta>
+                    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/><!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
+                </meta>
+                <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+                    <valuePeriod>
+                        <start value="2014-12-19T00:00:00+01:00"/>
+                    </valuePeriod>
+                </extension>
+                <url value="http://art-decor.org/fhir/ValueSet/1.2.276.0.76.11.32--20141219000000"/>
+                <identifier>
+                    <use value="official"/>
+                    <system value="urn:ietf:rfc:3986"/>
+                    <value value="urn:oid:1.2.276.0.76.11.32"/>
+                </identifier>
+                <version value="2014-12-19T00:00:00"/>
+                <name value="IHEXDSclassCode"/>
+                <title value="IHEXDS classCode"/>
+                <status value="draft"/>
+                <experimental value="false"/>
+                <publisher value="IHE Deutschland e.V."/>
+                <description value="**classCode (XDSDocumentEntry)**&#13;&#10; A high-level classification of XDS Documents that indicates the kind of document, e.g., report, summary, note, consent."/>
+                <immutable value="false"/>
+                <compose>
+                    <include>
+                        <system value="http://loinc.org"/>
+                        <concept>
+                            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+                                <valueString value="IHE BPPC verwendet laut IHE ITI TF-3 Rev 12.1 (5.1.2.1.1.1) diesen Class Code f&#xFC;r &quot;Patient Privacy Consent Acknowledgment Documents&quot;, d.h. Patienteneinwilligungen, die auf vordefinierte Zugriffsregelungen verweisen."/>
+                            </extension>
+                            <code value="57016-8"/>
+                            <display value="Privacy Policy Acknowledgement Document"/>
+                        </concept>
+                    </include>
+                    <include>
+                        <system value="http://ihe-d.de/CodeSystems/IHEXDSclassCode"/>
+                        <concept>
+                            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+                                <valueString value="Antr&#xE4;ge, Aufkl&#xE4;rung, Bescheinigungen; auch juristische Dokumente, Vereinbarungen und Vertr&#xE4;ge; Anmeldungen, Regelungen, Einwilligungen, Bestellungen, Rechnungen, Bescheide, Anordnungen (im juristischen Sinne), Auftr&#xE4;ge, Ausweise (au&#xDF;er medizinische Ausweise wie Impfp&#xE4;sse, siehe Konzept &quot;Medizinischer Ausweis&quot;), Meldungen, Qualit&#xE4;tssicherungsdokumente"/>
+                            </extension>
+                            <code value="ADM"/>
+                            <display value="Administratives Dokument"/>
+                        </concept>
+                        <concept>
+                            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+                                <valueString value="Anforderung von Diagnostik oder therapeutischen Interventionen; Ausnahmen: nicht medizinische Anforderungen werden &#xFC;ber &quot;Administratives Dokument&quot; abgedeckt."/>
+                            </extension>
+                            <code value="ANF"/>
+                            <display value="Anforderung"/>
+                        </concept>
+                        <concept>
+                            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+                                <valueString value="Bewertungsb&#xF6;gen zur Bestimmung von Scores und &#xE4;hnlichen Kennwerten zum gesundheitlichen Zustand des Patienten, die prim&#xE4;r der Behandlung des Patienten dienen (sonst handelt es sich um das Konzept &quot;Qualit&#xE4;tsmanagement&quot;)"/>
+                            </extension>
+                            <code value="ASM"/>
+                            <display value="Assessment"/>
+                        </concept>
+                        <concept>
+                            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+                                <valueString value="Untersuchungsergebnisse von EEG, EKG und weiterer Funktionsdiagnostik, sowie manuellen Untersuchungen; solange es keine spezifischeren classCodes gibt (z.B Laborergebnisse). Eine weitere Spezialisierung der Befunde (z.B. Histopathologie) kann &#xFC;ber den typeCode realisiert werden, insofern sie nicht &#xFC;ber den practiceSettingCode abgebildet werden."/>
+                            </extension>
+                            <code value="BEF"/>
+                            <display value="Befund"/>
+                        </concept>
+                        <concept>
+                            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+                                <valueString value="Unter diesem Konzept werden alle Dokumente zusammengefasst, deren Ziel es ist, einen Sachverhalt optisch darzustellen. Beispiele sind R&#xF6;ntgen-, MRT-, CT-Aufnahmen oder Fotos von Wunden, K&#xF6;rperteilen oder &#xE4;hnlichem. Bilder von Textdokumenten werden nach dem enthaltenen Text klassiert, Videodokumente unter Videodaten."/>
+                            </extension>
+                            <code value="BIL"/>
+                            <display value="Bilddaten"/>
+                        </concept>
+                        <concept>
+                            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+                                <valueString value="Alle Varianten von Arztbriefen wie &#xDC;berweisungsbrief, Entlassbrief, etc. sowie weitere zusammenfassende Dokumente mit einer &#xE4;rztlichen oder pflegerischen Bewertung der Fakten. Befundberichte werden &#xFC;ber das Konzept &quot;Befund&quot; abgedeckt."/>
+                            </extension>
+                            <code value="BRI"/>
+                            <display value="Brief"/>
+                        </concept>
+                        <concept>
+                            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+                                <valueString value="Notizen und &#xE4;hnliche Dokumente die keinen inhaltlichen Vorgaben folgen, aber f&#xFC;r die weitere Behandlung des Patienten bedeutend sind."/>
+                            </extension>
+                            <code value="DOK"/>
+                            <display value="Dokumente ohne besondere Form (Notizen)"/>
+                        </concept>
+                        <concept>
+                            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+                                <valueString value="Maschinell oder von Menschen erstellte Protokolle durchgef&#xFC;hrter Anamnese, Diagnostik oder Therapie, z.B. Anamnesebogen, OP-Berichte,&#xA0;&#xA0;Medikamentenverabreichungen; hierzu z&#xE4;hlen auch ausgef&#xFC;llte Checklisten die das prozesskonforme Vorgehen w&#xE4;hrend einer Untersuchung oder OP dokumentieren. Die Protokolle k&#xF6;nnen auch Handlungsanweisungen bzw. Empfehlungen beinhalten, z.B. Visitenprotokoll, Konsilbericht. Dazu geh&#xF6;ren auch Messdaten (oft auch als Quelldaten oder Rohdaten bezeichnet) ohne menschliche Bewertung wie Temperaturkurven, Blutdruck-Messungen, Blutzuckerkurven, unbefundete&#10;                        EKGs, Herz-Tonaufnahmen, Bestrahlungsprotokoll, Dosiswerte, etc. mit Ausnahme von Bilddaten und Videodaten. Die Auswertbarkeit des Formats (z.B. EKG-Kurve vs. eingescanntes EKG) spielt hierbei keine Rolle. Ursprungs- und Zwischenformate (wie z.B. Diktat eines Arztbriefes) werden mit dem inhaltlich sinnvollen classCode gekennzeichnet (Brief in diesem Beispiel)."/>
+                            </extension>
+                            <code value="DUR"/>
+                            <display value="Durchf&#xFC;hrungsprotokoll"/>
+                        </concept>
+                        <concept>
+                            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+                                <valueString value="Dokumente, die ausschlie&#xDF;lich f&#xFC;r Forschungsvorhaben erstellt wurden oder gepflegt werden (au&#xDF;er Einwilligungen und Aufkl&#xE4;rungen f&#xFC;r Forschungsvorhaben, siehe Konzept administratives Dokument)"/>
+                            </extension>
+                            <code value="FOR"/>
+                            <display value="Forschung"/>
+                        </concept>
+                        <concept>
+                            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+                                <valueString value="Medizinische Gutachten und Stellungnahmen die eine Qualit&#xE4;tsbewertung als Ziel haben, nicht prim&#xE4;r die Unterst&#xFC;tzung der Behandlung des Patienten (da sonst das Konzept &quot;Assessment&quot; verwendet werden sollte). Hierbei handelt es sich nicht notwendigerweise um Gutachten im juristischen Sinn."/>
+                            </extension>
+                            <code value="GUT"/>
+                            <display value="Gutachten und Qualit&#xE4;tsmanagement"/>
+                        </concept>
+                        <concept>
+                            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+                                <valueString value="Sowohl automatisch erstellte Analysen wie auch Dokumente die prim&#xE4;r die Interpretation des Laborarztes darstellen. Auch Dokumentation von Prozessen von Blutbanken, wie auch Human-genetische Analysen geh&#xF6;ren hierzu."/>
+                            </extension>
+                            <code value="LAB"/>
+                            <display value="Laborergebnisse"/>
+                        </concept>
+                        <concept>
+                            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+                                <valueString value="Ausweise, P&#xE4;sse und &#xE4;hnliche kurze Datens&#xE4;tze, die wichtige medizinische Informationen zusammenfassen.  Beispiele: Allergiepass, Allergieausweis, Impfpass, Impfausweis, Impfbuch, Notfalldatensatz"/>
+                            </extension>
+                            <code value="AUS"/>
+                            <display value="Medizinischer Ausweis"/>
+                        </concept>
+                        <concept>
+                            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+                                <valueString value="Dokumente zur Behandlungsplanung (z.B. Bestrahlungsplan, Medikationsplan) oder Versorgungsplanung (z.B. Nachsorge-Plan). Weitere Beispiele: Wiedereingliederungsplan."/>
+                            </extension>
+                            <code value="PLA"/>
+                            <display value="Planungsdokument"/>
+                        </concept>
+                        <concept>
+                            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+                                <valueString value="Verordnungen f&#xFC;r Krankenhausbehandlung, Arzneimittel bzw. Heil- und Hilfsmittel, sowie &#xDC;berweisungen an andere &#xC4;rzte"/>
+                            </extension>
+                            <code value="VER"/>
+                            <display value="Verordnung"/>
+                        </concept>
+                        <concept>
+                            <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
+                                <valueString value="Videodaten mit und ohne Tonspuren, sowie gemischte Bild- und Videodaten"/>
+                            </extension>
+                            <code value="VID"/>
+                            <display value="Videodaten"/>
+                        </concept>
+                    </include>
+                </compose>
+            </ValueSet>
