@@ -42,7 +42,7 @@ jobs:
         uses: FirelyTeam/firely-terminal-pipeline@v0.3.1
         with:
           PATH_TO_CONFORMANCE_RESOURCES: terminologie/ValueSets
-          DOTNET_VALIDATION_ENABLED: false
+          DOTNET_VALIDATION_ENABLED: true
           JAVA_VALIDATION_ENABLED: true
           OUTPUT_FORMAT: RAW
           EXPECTED_FAILS: VALIDATION_CONFORMANCE_JAVA
