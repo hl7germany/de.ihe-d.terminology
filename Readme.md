@@ -27,7 +27,7 @@ Der ["develop"-Branch](https://github.com/hl7germany/de.ihe-d.terminology/tree/d
 
 # ValueSets
 
-Folgende Value Sets werden in Version 3.0 bereitgestellt:
+Folgende Value Sets werden in Version 3.0 offiziell bereitgestellt:
 
 * DocumentEntry.classCode
   * Name: IHEXDSclassCode
