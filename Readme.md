@@ -9,7 +9,7 @@ Publiziert werden die Terminologieressourcen in dem FHIR-Package "de.ihe-d.termi
 
 # ValueSets
 
-Folgende Value Sets werden in Version 2.0 bereitgestellt:
+Folgende Value Sets werden in Version 3.0 bereitgestellt:
 
 * DocumentEntry.classCode
 * DocumentEntry.typeCode
