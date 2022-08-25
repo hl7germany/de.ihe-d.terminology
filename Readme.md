@@ -30,14 +30,47 @@ Der ["develop"-Branch](https://github.com/hl7germany/de.ihe-d.terminology/tree/d
 Folgende Value Sets werden in Version 3.0 bereitgestellt:
 
 * DocumentEntry.classCode
+  * Name: IHEXDSclassCode
+  * OID: 1.2.276.0.76.11.32
+  * Canonical: http://ihe-d.de/ValueSets/IHEXDSclassCode
 * DocumentEntry.typeCode
+  * Name: IHEXDStypeCode
+  * OID: 1.2.276.0.76.11.38
+  * Canonical: http://ihe-d.de/ValueSets/IHEXDStypeCode
 * DocumentEntry.healthcareFacilityTypeCode
+  * Name: IHEXDShealthcareFacilityTypeCode
+  * OID: 1.2.276.0.76.11.36
+  * Canonical: http://ihe-d.de/ValueSets/IHEXDShealthcareFacilityTypeCode
 * DocumentEntry.practiceSettingCode
+  * Name: IHEXDSpracticeSettingCode
+  * OID: 1.2.276.0.76.11.37
+  * Canonical: http://ihe-d.de/ValueSets/IHEXDSpracticeSettingCode
 * DocumentEntry.formatCode
+  * Name: IHEXDSformatCodeDE
+  * OID: 1.2.276.0.76.11.35
+  * Canonical: http://ihe-d.de/ValueSets/IHEXDSformatCodeDE
 * DocumentEntry.authorRole
+  * Name: IHEXDSauthorRole
+  * OID: 1.2.276.0.76.11.30
+  * Canonical: http://ihe-d.de/ValueSets/IHEXDSauthorRole
 * DocumentEntry.authorSpecialty
+  * Name: IHEXDSauthorSpeciality
+  * OID: 1.2.276.0.76.11.31
+  * Canonical: http://ihe-d.de/ValueSets/IHEXDSauthorSpeciality
 * DocumentEntry.confidentialityCode
+  * Name: IHEXDSconfidentialityCode
+  * OID: 1.2.276.0.76.11.33
+  * Canonical: http://ihe-d.de/ValueSets/IHEXDSconfidentialityCode
 * DocumentEntry.eventCodeList
+  * Name: IHEXDSeventCodeList
+  * OID: 1.2.276.0.76.11.34
+  * Canonical: http://ihe-d.de/ValueSets/IHEXDSeventCodeList
 * DocumentEntry.languageCode
 * Folder.codeList
+  * Name: IHEXDScodeList
+  * OID: 1.2.276.0.76.11.40
+  * Canonical: http://ihe-d.de/ValueSets/IHEXDScodeList
 * SubmissionSet.contentTypeCode
+  * Name: IHEXDScontentTypeCode
+  * OID: 1.2.276.0.76.11.39
+  * Canonical: http://ihe-d.de/ValueSets/IHEXDScontentTypeCode
