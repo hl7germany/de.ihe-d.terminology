@@ -1,12 +1,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
-    <id value="1.2.276.0.76.11.34--20180713132843"/>
+    <id value="1.2.276.0.76.11.34--20210706211941"/>
     <meta>
         <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
         <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
     </meta>
     <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
         <valuePeriod>
-            <start value="2018-07-13T13:28:43+01:00"/>
+            <start value="2021-07-06T21:19:41+01:00"/>
         </valuePeriod>
     </extension>
     <url value="http://ihe-d.de/ValueSets/IHEXDSeventCodeList"/>
@@ -15,7 +15,7 @@
         <system value="urn:ietf:rfc:3986"/>
         <value value="urn:oid:1.2.276.0.76.11.34"/>
     </identifier>
-    <version value="2018-07-13T13:28:43"/>
+    <version value="2021-07-06T21:19:41"/>
     <name value="IHEXDSeventCodeList"/>
     <title value="IHE XDS eventCodeList"/>
     <status value="active"/>
@@ -24,6 +24,9 @@
     <description value="**eventCodeList (XDSDocumentEntry)**&#13;&#10;This list of codes represents the main clinical acts being documented in an XDS Document."/>
     <immutable value="false"/>
     <compose>
+        <include>
+            <system value="urn:oid:1.2.276.0.76.11.469"/>
+        </include>
         <include>
             <system value="http://hl7.org/fhir/ValueSet/signature-type"/>
         </include>

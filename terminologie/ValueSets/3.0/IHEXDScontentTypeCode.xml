@@ -1,12 +1,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
-    <id value="1.2.276.0.76.11.39--20180713132816"/>
+    <id value="1.2.276.0.76.11.39--20210706211831"/>
     <meta>
         <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
         <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
     </meta>
     <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
         <valuePeriod>
-            <start value="2018-07-13T13:28:16+01:00"/>
+            <start value="2021-07-06T21:18:31+01:00"/>
         </valuePeriod>
     </extension>
     <url value="http://ihe-d.de/ValueSets/IHEXDScontentTypeCode"/>
@@ -15,7 +15,7 @@
         <system value="urn:ietf:rfc:3986"/>
         <value value="urn:oid:1.2.276.0.76.11.39"/>
     </identifier>
-    <version value="2018-07-13T13:28:16"/>
+    <version value="2021-07-06T21:18:31"/>
     <name value="IHEXDScontentTypeCode"/>
     <title value="IHE XDS contentTypeCode"/>
     <status value="active"/>

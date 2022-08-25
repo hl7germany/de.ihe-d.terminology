@@ -1,12 +1,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
-    <id value="1.2.276.0.76.11.38--20180713162205"/>
+    <id value="1.2.276.0.76.11.38--20200207075558"/>
     <meta>
         <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
         <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
     </meta>
     <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
         <valuePeriod>
-            <start value="2018-07-13T16:22:05+01:00"/>
+            <start value="2020-02-07T07:55:58+01:00"/>
         </valuePeriod>
     </extension>
     <url value="http://ihe-d.de/ValueSets/IHEXDStypeCode"/>
@@ -15,7 +15,7 @@
         <system value="urn:ietf:rfc:3986"/>
         <value value="urn:oid:1.2.276.0.76.11.38"/>
     </identifier>
-    <version value="2018-07-13T16:22:05"/>
+    <version value="2020-02-07T07:55:58"/>
     <name value="IHEXDStypeCode"/>
     <title value="IHE XDS typeCode"/>
     <status value="active"/>
@@ -192,7 +192,7 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Befundberichte aus Pathologie, Histologie, Zytopathologie und Molekularpathologie von Organen, Gewebeproben, Zellproben, Foeten usw.; auch die zugeh&#xF6;rigen Untersuchungsanforderungen werden mit diesem Konzept abgebildet.  Beispiele: Histologiebefund, Histologieanforderung, Autopsiebericht, Befund Dermatopathologie, Befund H&#xE4;matopathologie, Immunhistochemiebefund, Neuropathologiebefund, Schnellschnitt-Ergebnis, Probenbegleitschein Pathologie "/>
+                    <valueString value="Befundberichte aus Pathologie, Histologie, Zytopathologie und Molekularpathologie von Organen, Gewebeproben, Zellproben, Foeten usw.; auch die zugeh&#xF6;rigen Untersuchungsanforderungen werden mit diesem Konzept abgebildet.  Beispiele: Histologiebefund, Histologieanforderung, Autopsiebericht, Befund Dermatopathologie, Befund H&#xE4;matopathologie, Immunhistochemiebefund, Neuropathologiebefund, Schnellschnitt-Ergebnis, Probenbegleitschein Pathologie, genetische Befunde"/>
                 </extension>
                 <code value="PATH"/>
                 <display value="Pathologiebefundberichte"/>
@@ -241,7 +241,7 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Dokumente mit allen Informationen &#xFC;ber die Phase vor, w&#xE4;hrend und nach dem Geburtsverlauf, inklusive Funktionsdiagnostik (z.B. CTG) und Bildgebende Diagnostik und &#xE4;hnliche Befunde die sich auf das Kind beziehen. Weiterhin beinhalten das Konzept Belege zur Neugeborenversorgung, wenn sie der Akte der Mutter zugeordnet sind. Verordnungen und Medikamentationsdokumentation hingegen werden &#xFC;ber die jeweiligen Konzepte (VERO und MEDI) abgebildet.  Beispiele: Geburtenbericht, Geburtenprotokoll, Geburtenverlaufskurve, Neugeborenenscreening, Partogramm, Wiegekarte,&#10;          Neugeborenendokumentationsbogen, S&#xE4;uglingskurve "/>
+                    <valueString value="Dokumente mit allen Informationen &#xFC;ber die Phase vor, w&#xE4;hrend und nach dem Geburtsverlauf, inklusive Funktionsdiagnostik (z.B. CTG) und Bildgebende Diagnostik und &#xE4;hnliche Befunde die sich auf das Kind beziehen. Weiterhin beinhalten das Konzept Belege zur Neugeborenversorgung, wenn sie der Akte der Mutter zugeordnet sind. Verordnungen und Medikamentationsdokumentation hingegen werden &#xFC;ber die jeweiligen Konzepte (VERO und MEDI) abgebildet.  Beispiele: Geburtenbericht, Geburtenprotokoll, Geburtenverlaufskurve, Neugeborenenscreening, Partogramm, Wiegekarte,&#10;          Neugeborenendokumentationsbogen, S&#xE4;uglingskurve, Stillprotokoll"/>
                 </extension>
                 <code value="GEBU"/>
                 <display value="Schwangerschafts- und Geburtsdokumentation"/>

@@ -1,12 +1,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
-    <id value="1.2.276.0.76.11.32--20180713132315"/>
+    <id value="1.2.276.0.76.11.32--20210625134447"/>
     <meta>
         <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
         <!--<profile value="http://hl7.org/fhir/4.0/StructureDefinition/ValueSet"/>-->
     </meta>
     <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
         <valuePeriod>
-            <start value="2018-07-13T13:23:15+01:00"/>
+            <start value="2021-06-25T13:44:47+01:00"/>
         </valuePeriod>
     </extension>
     <url value="http://ihe-d.de/ValueSets/IHEXDSclassCode"/>
@@ -15,7 +15,7 @@
         <system value="urn:ietf:rfc:3986"/>
         <value value="urn:oid:1.2.276.0.76.11.32"/>
     </identifier>
-    <version value="2018-07-13T13:23:15"/>
+    <version value="2021-06-25T13:44:47"/>
     <name value="IHEXDSclassCode"/>
     <title value="IHE XDS classCode"/>
     <status value="active"/>
@@ -38,7 +38,7 @@
             <system value="http://ihe-d.de/CodeSystems/IHEXDSclassCode"/>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Antr&#xE4;ge, Aufkl&#xE4;rung, Bescheinigungen; auch juristische Dokumente, Vereinbarungen und Vertr&#xE4;ge; Anmeldungen, Regelungen, Einwilligungen, Bestellungen, Rechnungen, Bescheide, Anordnungen (im juristischen Sinne), Auftr&#xE4;ge, Ausweise (au&#xDF;er medizinische Ausweise wie Impfp&#xE4;sse, siehe Konzept AUS (&quot;Medizinischer Ausweis&quot;)), Meldungen, Qualit&#xE4;tssicherungsdokumente"/>
+                    <valueString value="Antr&#xE4;ge, Aufkl&#xE4;rung, Bescheinigungen; auch juristische Dokumente, Vereinbarungen und Vertr&#xE4;ge; Anmeldungen, Regelungen, Einwilligungen, Bestellungen, Rechnungen, Bescheide, Anordnungen (im juristischen Sinne), Auftr&#xE4;ge, Ausweise (au&#xDF;er medizinische Ausweise wie Impfp&#xE4;sse, siehe Konzept AUS (&quot;Medizinischer Ausweis&quot;)), Meldungen, Qualit&#xE4;tssicherungsdokumente, Patientenverf&#xFC;gungen"/>
                 </extension>
                 <code value="ADM"/>
                 <display value="Administratives Dokument"/>
