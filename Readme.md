@@ -77,3 +77,25 @@ Folgende Value Sets werden in Version 3.0 offiziell bereitgestellt:
   * Name: IHEXDScontentTypeCode
   * OID: 1.2.276.0.76.11.39
   * Canonical: http://ihe-d.de/ValueSets/IHEXDScontentTypeCode
+
+Weitere informell veröffentliche ValueSets in Version 3.0:
+
+* Name: IHEXDSpracticeSettingCodeNonDoctoral
+ * OID: 1.2.276.0.76.11.70
+ * Canonical: http://ihe-d.de/ValueSets/IHEXDSpracticeSettingCodeNonDoctoral
+
+* Name: IHEXDShealthcareFacilityTypeCodePatientRelatedHealthcare
+ * OID: 1.2.276.0.76.11.58
+ * Canonical: http://art-decor.org/fhir/ValueSet/1.2.276.0.76.11.58--20180713162142
+
+* Name: IHEXDShealthcareFacilityTypeCodeOutsidePatientReleatedHealthcare
+ * OID: 1.2.276.0.76.11.59
+ * Canonical: http://art-decor.org/fhir/ValueSet/1.2.276.0.76.11.59--20180713162125
+
+* Name: IHEXDSpracticeSettingCodedoctoral
+ * OID: 1.2.276.0.76.11.69
+ * Canonical: http://art-decor.org/fhir/ValueSet/1.2.276.0.76.11.69--20190405083559
+
+* Name: IHEXDSformatCodeINTL
+ * OID: 1.2.276.0.76.11.71
+ * Canonical: http://art-decor.org/fhir/ValueSet/1.2.276.0.76.11.71--20210706212636
