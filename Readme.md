@@ -23,4 +23,4 @@ Die oben genannten ValueSets liegen in folgenden Versionen vor:
 
 Es ist zu beachten, dass Zwischenversionen die nicht als "final" gekennzeichnet wurden, nicht publiziert werden.
 
-Der ["develop"-Branch](https://github.com/hl7germany/de.ihe-d.terminology/tree/develop) spiegelt immer die aktuelle Arbeitsversion wieder.
+Der ["live"-Ordner](https://github.com/hl7germany/de.ihe-d.terminology/tree/master) spiegelt immer die aktuelle Arbeitsversion wieder.
