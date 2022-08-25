@@ -16,7 +16,7 @@ Die oben genannten ValueSets liegen in folgenden Versionen vor:
   * [GitHub](https://github.com/hl7germany/de.ihe-d.terminology/tree/v1.0) 
 * Version 2.0.0 - Final - 09.10.2018
   * [PDF](https://www.ihe-d.de/wp-content/uploads/2020/09/ValueSets2_0.pdf)
-  * * [GitHub](https://github.com/hl7germany/de.ihe-d.terminology/tree/v2.0)  
+  * [GitHub](https://github.com/hl7germany/de.ihe-d.terminology/tree/v2.0)  
 * Version 3.0.0 - Final - 09.07.2021
   * [PDF](https://www.ihe-d.de/wp-content/uploads/2021/07/XDSValueSetsDv3.pdf)
   * [GitHub](https://github.com/hl7germany/de.ihe-d.terminology/tree/v3.0) 
