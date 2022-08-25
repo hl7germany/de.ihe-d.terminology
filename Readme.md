@@ -95,3 +95,13 @@ Weitere informell veröffentliche ValueSets in Version 3.0:
 * Name: IHEXDSformatCodeINTL
   * OID: 1.2.276.0.76.11.71
   * Canonical: http://art-decor.org/fhir/ValueSet/1.2.276.0.76.11.71--20210706212636
+
+# Offene Probleme
+
+* IHEXDSpracticeSettingCode:
+  * Inkludiert ValueSet mit Canonical "http://art-decor.org/fhir/ValueSet/1.2.276.0.76.11.69--20190405083559". Canonical sollte "http://ihe-d.de/ValueSets/"-Prefix enthalten.
+* IHEXDShealthcareFacilityTypeCode:
+  * Inkludiert ValueSets mit den Canoncials "http://art-decor.org/fhir/ValueSet/1.2.276.0.76.11.58--20180713162142" und "http://art-decor.org/fhir/ValueSet/1.2.276.0.76.11.59--20180713162125". Canonical sollte "http://ihe-d.de/ValueSets/"-Prefix enthalten.
+
+* IHEXDSformatCodeDE:
+  * Inkludiert ValueSet mit Canonical "http://art-decor.org/fhir/ValueSet/1.2.276.0.76.11.71--20180713170639". Canonical sollte "http://ihe-d.de/ValueSets/"-Prefix enthalten.
