@@ -1,6 +1,6 @@
 {
   "name": "de.ihe-d.terminology",
-  "version": "0.1.0",
+  "version": "3.0.0",
   "description": "IHE XDS ValueSets für Deutschland",
   "author": "alexzautke",
   "fhirVersions": [
