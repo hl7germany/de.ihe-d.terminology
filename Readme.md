@@ -11,8 +11,13 @@ Publiziert werden die Terminologieressourcen in dem FHIR-Package "de.ihe-d.termi
 
 Die oben genannten ValueSets liegen in folgenden Versionen vor:
 
-* Version 1.0.0 - Final - 
-* Version 2.0.0 - Final - 
+* Version 1.0.0 - Final - 10.11.2016
+  * [PDF](https://www.ihe-d.de/wp-content/uploads/2020/09/XDS_Value_Sets1.pdf)
+* Version 2.0.0 - Final - 09.10.2018
+  * [PDF](https://www.ihe-d.de/wp-content/uploads/2020/09/ValueSets2_0.pdf) 
 * Version 3.0.0 - Final - 09.07.2021
+  * [PDF](https://www.ihe-d.de/wp-content/uploads/2021/07/XDSValueSetsDv3.pdf) 
+
+Es ist zu beachten, dass Zwischenversionen die nicht als "final" gekennzeichnet wurden, nicht publiziert werden.
 
 Der ["develop"-Branch](https://github.com/hl7germany/de.ihe-d.terminology/tree/develop) spiegelt immer die aktuelle Arbeitsversion wieder.
