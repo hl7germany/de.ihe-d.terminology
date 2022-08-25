@@ -17,9 +17,9 @@ Folgende Value Sets werden in Version 2.0 bereitgestellt:
 * DocumentEntry.practiceSettingCode
 * DocumentEntry.formatCode
 * DocumentEntry.languageCode
-* Folder.codeList
 * DocumentEntry.authorRole
 * DocumentEntry.authorSpecialty
 * DocumentEntry.confidentialityCode
 * DocumentEntry.eventCodeList
+* Folder.codeList
 * SubmissionSet.contentTypeCode
