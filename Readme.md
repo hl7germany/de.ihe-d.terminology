@@ -66,6 +66,9 @@ Folgende Value Sets werden in Version 3.0 bereitgestellt:
   * OID: 1.2.276.0.76.11.34
   * Canonical: http://ihe-d.de/ValueSets/IHEXDSeventCodeList
 * DocumentEntry.languageCode
+  * Name: n/A
+  * OID: n/A
+  * Canonical: n/A
 * Folder.codeList
   * Name: IHEXDScodeList
   * OID: 1.2.276.0.76.11.40
