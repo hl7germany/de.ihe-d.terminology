@@ -105,3 +105,8 @@ Weitere informell veröffentliche ValueSets in Version 3.0:
 
 * IHEXDSformatCodeDE:
   * Inkludiert ValueSet mit Canonical "http://art-decor.org/fhir/ValueSet/1.2.276.0.76.11.71--20180713170639". Canonical sollte "http://ihe-d.de/ValueSets/"-Prefix enthalten.
+
+* IHEXDSeventCodeList:
+  * urn:oid:1.2.840.10008.6.1.19 ist als Canonical URL nicht offiziell durch IHE Int. vergeben. Sollte getauscht werden mit "http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_29.html". Zudem bezieht sich die Canonical auf ein ValueSet kein CodeSystem, daher ist der Include per ValueSet.compose.include.valueSet anzugeben.
+  * 1.2.840.10008.6.1.2 ist als Canonical URL nicht offiziell durch IHE Int. vergeben. Sollte getauscht werden mit "http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4.html". Zudem bezieht sich die Canonical auf ein ValueSet kein CodeSystem, daher ist der Include per ValueSet.compose.include.valueSet anzugeben.
+  * Das ValueSet mit der Canonical "urn:oid:1.2.276.0.76.11.469" ist formal nicht definitert. Zudem bezieht sich die Canonical auf ein ValueSet kein CodeSystem, daher ist der Include per ValueSet.compose.include.valueSet anzugeben.
