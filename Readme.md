@@ -11,14 +11,15 @@ Publiziert werden die Terminologieressourcen in dem FHIR-Package "de.ihe-d.termi
 
 Folgende Value Sets werden in Version 2.0 bereitgestellt:
 
-DocumentEntry.classCode
-DocumentEntry.typeCode
-DocumentEntry.healthcareFacilityTypeCode
-DocumentEntry.practiceSettingCode
-DocumentEntry.formatCode
-DocumentEntry.languageCode
-Folder.codeList
-DocumentEntry.authorRole
-DocumentEntry.authorSpecialty
-DocumentEntry.confidentialityCode ▪ DocumentEntry.eventCodeList
-SubmissionSet.contentTypeCode
+* DocumentEntry.classCode
+* DocumentEntry.typeCode
+* DocumentEntry.healthcareFacilityTypeCode
+* DocumentEntry.practiceSettingCode
+* DocumentEntry.formatCode
+* DocumentEntry.languageCode
+* Folder.codeList
+* DocumentEntry.authorRole
+* DocumentEntry.authorSpecialty
+* DocumentEntry.confidentialityCode
+* DocumentEntry.eventCodeList
+* SubmissionSet.contentTypeCode
