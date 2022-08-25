@@ -15,4 +15,4 @@ Die oben genannten ValueSets liegen in folgenden Versionen vor:
 * Version 2.0.0 - Final - 
 * Version 3.0.0 - Final - 09.07.2021
 
-Der "develop"-Branch spiegelt immer die aktuelle Arbeitsversion wieder.
+Der ["develop"-Branch](https://github.com/hl7germany/de.ihe-d.terminology/tree/develop) spiegelt immer die aktuelle Arbeitsversion wieder.
