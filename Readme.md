@@ -21,6 +21,6 @@ Die oben genannten ValueSets liegen in folgenden Versionen vor:
   * [PDF](https://www.ihe-d.de/wp-content/uploads/2021/07/XDSValueSetsDv3.pdf)
   * [GitHub](https://github.com/hl7germany/de.ihe-d.terminology/tree/v3.0) 
 
-Es ist zu beachten, dass Zwischenversionen die nicht als "final" gekennzeichnet wurden, nicht publiziert werden.
+Es ist zu beachten, dass Zwischenversionen die in ArtDecor nicht als "final" gekennzeichnet wurden, nicht publiziert werden.
 
 Der ["live"-Ordner](https://github.com/hl7germany/de.ihe-d.terminology/tree/master/terminologie/ValueSets/live) spiegelt immer die aktuelle Arbeitsversion wieder.
