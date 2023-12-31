@@ -100,8 +100,9 @@ Weitere informell veröffentliche ValueSets in Version 3.0:
 
 * IHEXDSpracticeSettingCode:
   * Inkludiert ValueSet mit Canonical "http://art-decor.org/fhir/ValueSet/1.2.276.0.76.11.69--20190405083559". Canonical sollte "http://ihe-d.de/ValueSets/"-Prefix enthalten.
+  
 * IHEXDShealthcareFacilityTypeCode:
-  * Inkludiert ValueSets mit den Canoncials "http://art-decor.org/fhir/ValueSet/1.2.276.0.76.11.58--20180713162142" und "http://art-decor.org/fhir/ValueSet/1.2.276.0.76.11.59--20180713162125". Canonical sollte "http://ihe-d.de/ValueSets/"-Prefix enthalten.
+  * Inkludiert ValueSets mit den Canoncials "http://art-decor.org/fhir/ValueSet/1.2.276.0.76.11.58--20180713162142" und "http://art-decor.org/fhir/ValueSet/1.2.276.0.76.11.59--20180713162125". Canonicals "http://ihe-d.de/ValueSets/IHEXDShealthcareFacilityTypeCodePatientRelatedHealthcare" und "http://ihe-d.de/ValueSets/IHEXDShealthcareFacilityTypeCodeOutsidePatientRelatedHealthcare" sollten inkludiert werden.
 
 * IHEXDSformatCodeDE:
   * Inkludiert ValueSet mit Canonical "http://art-decor.org/fhir/ValueSet/1.2.276.0.76.11.71--20180713170639". Canonical "http://ihe-d.de/ValueSets/IHEXDSformatCodeINTL" sollte anstelle dessen inkludiert werden.
