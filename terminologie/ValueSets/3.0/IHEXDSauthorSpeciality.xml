@@ -1390,7 +1390,7 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Personen, die die pharmazeutische Vorpr&#xFC;fung nach der &#x201E;Pr&#xFC;fungsordnung f&#xFC;r Apotheker&#x201C; vom 18. Mai 1904 oder nach der &#x201E;Pr&#xFC;fungsordnung f&#xFC;r Apotheker&#x201C; vom 8. Dezember 1934&#10;                    bestanden haben (vorgepr&#xFC;fte Apothekeranw&#xE4;rter), d&#xFC;rfen eine T&#xE4;tigkeit unter der Berufsbezeichnung &#x201E;Apothekerassistentin&#x201C; oder &#x201E;Apothekerassistent&#x201C; aus&#xFC;ben (&#xA7; 1 Abs. 1 ApoAnwRstG)."/>
+                    <valueString value="Personen, die die pharmazeutische Vorpr&#xFC;fung nach der &#x201E;Pr&#xFC;fungsordnung f&#xFC;r Apotheker&#x201C; vom 18. Mai 1904 oder nach der &#x201E;Pr&#xFC;fungsordnung f&#xFC;r Apotheker&#x201C; vom 8. Dezember 1934 bestanden haben (vorgepr&#xFC;fte Apothekeranw&#xE4;rter), d&#xFC;rfen eine T&#xE4;tigkeit unter der Berufsbezeichnung &#x201E;Apothekerassistentin&#x201C; oder &#x201E;Apothekerassistent&#x201C; aus&#xFC;ben (&#xA7; 1 Abs. 1 ApoAnwRstG)."/>
                 </extension>
                 <code value="182"/>
                 <display value="Apothekerassistent"/>

@@ -25,10 +25,10 @@
     <immutable value="false"/>
     <compose>
         <include>
-            <valueSet value="http://art-decor.org/fhir/ValueSet/1.2.276.0.76.11.58--20180713162142"/>
+            <valueSet value="http://ihe-d.de/ValueSets/IHEXDShealthcareFacilityTypeCodePatientRelatedHealthcare"/>
         </include>
         <include>
-            <valueSet value="http://art-decor.org/fhir/ValueSet/1.2.276.0.76.11.59--20180713162125"/>
+            <valueSet value="http://ihe-d.de/ValueSets/IHEXDShealthcareFacilityTypeCodeOutsidePatientRelatedHealthcare"/>
         </include>
     </compose>
 </ValueSet>

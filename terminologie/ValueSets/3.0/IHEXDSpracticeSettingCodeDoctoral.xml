@@ -9,7 +9,7 @@
             <start value="2019-04-05T08:35:59+01:00"/>
         </valuePeriod>
     </extension>
-    <url value="http://art-decor.org/fhir/ValueSet/1.2.276.0.76.11.69--20190405083559"/>
+    <url value="http://ihe-d.de/ValueSets/IHEXDSpracticeSettingCodeDoctoral"/>
     <identifier>
         <use value="official"/>
         <system value="urn:ietf:rfc:3986"/>
@@ -540,7 +540,7 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Die Rheumatologie ist eine Spezialisierung des Fachgebietes Innere Medizin. Das Konzept umfasst auch die Fachrichtung 'orthop&#xE4;dische Rheumatologie'.&#xA0; Das Gebiet besch&#xE4;ftigt sich mit Diagnose und Therapie der rheumatischen Erkrankungen, d.h. Erkrankungen &#xA0;im Bereich der Gelenke, Gelenkkapseln, Sehnen, Knochen, Muskeln und des Bindegewebes, die nicht durch eine akute Verletzung oder einen Tumor hervorgerufen werden.&#10;        "/>
+                    <valueString value="Die Rheumatologie ist eine Spezialisierung des Fachgebietes Innere Medizin. Das Konzept umfasst auch die Fachrichtung 'orthop&#xE4;dische Rheumatologie'.&#xA0; Das Gebiet besch&#xE4;ftigt sich mit Diagnose und Therapie der rheumatischen Erkrankungen, d.h. Erkrankungen &#xA0;im Bereich der Gelenke, Gelenkkapseln, Sehnen, Knochen, Muskeln und des Bindegewebes, die nicht durch eine akute Verletzung oder einen Tumor hervorgerufen werden."/>
                 </extension>
                 <code value="RHEU"/>
                 <display value="Rheumatologie"/>
@@ -748,7 +748,7 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Das Fachgebiet der Laboratoriumsmedizin besch&#xE4;ftigt sich mit der Untersuchung von K&#xF6;rperfl&#xFC;ssigkeiten und -ausscheidungen zum Zwecke der Diagnostik bzw. Verlaufs- und Therapiekontrolle. Durch dieses Konzept werden auch die Konzepte&#xA0;&quot;Immunologisches&#10;          Labor&quot; und &quot;Zellmarkerlabor&quot; abgedeckt."/>
+                    <valueString value="Das Fachgebiet der Laboratoriumsmedizin besch&#xE4;ftigt sich mit der Untersuchung von K&#xF6;rperfl&#xFC;ssigkeiten und -ausscheidungen zum Zwecke der Diagnostik bzw. Verlaufs- und Therapiekontrolle. Durch dieses Konzept werden auch die Konzepte&#xA0;&quot;Immunologisches Labor&quot; und &quot;Zellmarkerlabor&quot; abgedeckt."/>
                 </extension>
                 <code value="LABO"/>
                 <display value="Laboratoriumsmedizin"/>

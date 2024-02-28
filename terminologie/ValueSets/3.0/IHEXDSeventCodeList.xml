@@ -25,22 +25,16 @@
     <immutable value="false"/>
     <compose>
         <include>
-            <system value="urn:oid:1.2.276.0.76.11.469"/>
+            <valueSet value="http://dvmd.de/fhir/ValueSet/kdl"/>
         </include>
         <include>
-            <system value="http://hl7.org/fhir/ValueSet/signature-type"/>
+            <valueSet value="http://hl7.org/fhir/ValueSet/signature-type"/>
         </include>
         <include>
-            <system value="urn:oid:1.2.840.10008.6.1.19"/>
+            <valueSet value="http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_29.html"/>
         </include>
         <include>
-            <system value="urn:oid:1.2.840.10008.6.1.2"/>
-        </include>
-        <include>
-            <system value="http://ihe-d.de/CodeSystems/DokumentenWarnhinweise"/>
-        </include>
-        <include>
-            <system value="http://ihe-d.de/CodeSystems/FallkontextBeiDokumentenerstellung"/>
+            <valueSet value="http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_4.html"/>
         </include>
         <include>
             <system value="http://ihe-d.de/CodeSystems/FallkontextBeiDokumentenerstellung"/>
@@ -238,7 +232,7 @@
             </concept>
         </include>
         <include>
-            <system value="http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem"/>
+            <system value="http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"/>
             <concept>
                 <code value="urn:ihe:iti:xdw:2011:eventCode:open"/>
                 <display value="Workflow offen"/>

@@ -28,7 +28,7 @@
             <system value="http://loinc.org"/>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="IHE APPC verwendet diesen Class Code f&#xFC;r &quot;Privacy Consent Documents&quot;, d.h. f&#xFC;r Einwilligungsdokumente mit maschinen-lesbaren Zugriffsregeln.&#10;        "/>
+                    <valueString value="IHE APPC verwendet diesen Class Code f&#xFC;r &quot;Privacy Consent Documents&quot;, d.h. f&#xFC;r Einwilligungsdokumente mit maschinen-lesbaren Zugriffsregeln."/>
                 </extension>
                 <code value="57016-8"/>
                 <display value="Patienteneinverst&#xE4;ndniserkl&#xE4;rung"/>
@@ -38,7 +38,7 @@
             <system value="http://ihe-d.de/CodeSystems/IHEXDStypeCode"/>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Administrative Dokumente, die die Abrechnung eines Patientenfalles betreffen. Medizinische Dokumentation, die als Grundlage f&#xFC;r die Abrechnung oder als Begr&#xFC;ndung f&#xFC;r die Behandlung herangezogen wird, ist mit dem entsprechenden Konzept abzubilden. Einwilligungen zur Datenweitergabe an Abrechnungsstellen usw. werden mit dem Konzept EINW (&quot;Einwilligungen/Aufkl&#xE4;rungen&quot;) abgebildet. Der nicht abrechnungsbezogene Schriftwechsel mit der Krankenkasse wird mit dem Konzept SCHR (&quot;Schriftwechsel (administrativ)&quot;) abgebildet.Beispiele: Abrechnungsschein,&#10;          Rechnung ambulante/station&#xE4;re Behandlung, Kosten&#xFC;bernahmeverl&#xE4;ngerung"/>
+                    <valueString value="Administrative Dokumente, die die Abrechnung eines Patientenfalles betreffen. Medizinische Dokumentation, die als Grundlage f&#xFC;r die Abrechnung oder als Begr&#xFC;ndung f&#xFC;r die Behandlung herangezogen wird, ist mit dem entsprechenden Konzept abzubilden. Einwilligungen zur Datenweitergabe an Abrechnungsstellen usw. werden mit dem Konzept EINW (&quot;Einwilligungen/Aufkl&#xE4;rungen&quot;) abgebildet. Der nicht abrechnungsbezogene Schriftwechsel mit der Krankenkasse wird mit dem Konzept SCHR (&quot;Schriftwechsel (administrativ)&quot;) abgebildet.Beispiele: Abrechnungsschein, Rechnung ambulante/station&#xE4;re Behandlung, Kosten&#xFC;bernahmeverl&#xE4;ngerung"/>
                 </extension>
                 <code value="ABRE"/>
                 <display value="Abrechnungsdokumente"/>
@@ -94,35 +94,35 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Dokumente die im Rahmen von &#xDC;berweisungs-, Einweisungs- und Aufnahmeprozessen entstehen oder diese Prozesse unterst&#xFC;tzen. Dies betrifft sowohl station&#xE4;re wie auch ambulante Aufnahmen in Krankenh&#xE4;usern und Reha-Einrichtungen, wie auch Besuche bei niedergelassenen &#xC4;rzten und Therapeuten. Diese Dokumente beinhalten &#xFC;blicherweise patientenbezogene Daten, den bisherigen Krankheitsverlauf und aktuellen Zustand des Patienten sowie erste Untersuchungen/Therapieans&#xE4;tze. Beispiele: Anamnesebogen, Anmeldung Aufnahme, Checkliste Aufnahme, Verordnung einer Krankenhausbehandlung, &#xDC;berweisungsschein, G-AEP-Kriterien, Stammblatt, Aufnahmebogen&#10;        "/>
+                    <valueString value="Dokumente die im Rahmen von &#xDC;berweisungs-, Einweisungs- und Aufnahmeprozessen entstehen oder diese Prozesse unterst&#xFC;tzen. Dies betrifft sowohl station&#xE4;re wie auch ambulante Aufnahmen in Krankenh&#xE4;usern und Reha-Einrichtungen, wie auch Besuche bei niedergelassenen &#xC4;rzten und Therapeuten. Diese Dokumente beinhalten &#xFC;blicherweise patientenbezogene Daten, den bisherigen Krankheitsverlauf und aktuellen Zustand des Patienten sowie erste Untersuchungen/Therapieans&#xE4;tze. Beispiele: Anamnesebogen, Anmeldung Aufnahme, Checkliste Aufnahme, Verordnung einer Krankenhausbehandlung, &#xDC;berweisungsschein, G-AEP-Kriterien, Stammblatt, Aufnahmebogen"/>
                 </extension>
                 <code value="AUFN"/>
                 <display value="Einweisungs- und Aufnahmedokumente"/>
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Dokumente, Formulare und sonstige Erkl&#xE4;rungen, die der Patient im Verlauf des Versorgungsprozesses unterschreibt, einschlie&#xDF;lich dokumentierter Aufkl&#xE4;rungen. Ausnahmen: Vertr&#xE4;ge; Aufkl&#xE4;rungsb&#xF6;gen zu An&#xE4;sthesie und Bestrahlung werden &#xFC;ber die Konzepte ANAE (&quot;An&#xE4;sthesiedokumente&quot;) bzw. BSTR (&quot;Bestrahlungsdokumentation&quot;) abgebildet. Beispiele: Einwilligung zur Datenweitergabe, Einverst&#xE4;ndniserkl&#xE4;rung, Aufkl&#xE4;rungs- und Einwilligungsbogen zum chirurgischen Eingriff, Erkl&#xE4;rung zum Verlassen der Klinik gegen &#xE4;rztlichen Rat, vom Patienten unterschriebene&#10;          Belehrungen "/>
+                    <valueString value="Dokumente, Formulare und sonstige Erkl&#xE4;rungen, die der Patient im Verlauf des Versorgungsprozesses unterschreibt, einschlie&#xDF;lich dokumentierter Aufkl&#xE4;rungen. Ausnahmen: Vertr&#xE4;ge; Aufkl&#xE4;rungsb&#xF6;gen zu An&#xE4;sthesie und Bestrahlung werden &#xFC;ber die Konzepte ANAE (&quot;An&#xE4;sthesiedokumente&quot;) bzw. BSTR (&quot;Bestrahlungsdokumentation&quot;) abgebildet. Beispiele: Einwilligung zur Datenweitergabe, Einverst&#xE4;ndniserkl&#xE4;rung, Aufkl&#xE4;rungs- und Einwilligungsbogen zum chirurgischen Eingriff, Erkl&#xE4;rung zum Verlassen der Klinik gegen &#xE4;rztlichen Rat, vom Patienten unterschriebene Belehrungen "/>
                 </extension>
                 <code value="EINW"/>
                 <display value="Einwilligungen/Aufkl&#xE4;rungen"/>
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="&#10;          Protokolle, Untersuchungsergebnisse, Befunde und Beurteilungen aus apparativer oder instrumenteller Diagnostik ohne Bildgebung; auch die zugeh&#xF6;rigen Untersuchungsanforderungen werden mit diesem Konzept abgebildet. Beispiele: EEG, EMG, EKG-Befund, EKG-Kurvenausdruck, EKGMessdaten, Manometriebefund, Temperaturmesskurve, Schlaflabordokumentationsbogen, Blutdruckprotokoll, Lungenfunktionsbefund, Spiroergometriebefund, Herzschrittmacher-Protokoll, Belastungs-EKG, Protokoll einer diagnostischen Punktion, Mini Mental Status Test, Schmerzerhebungsbogen, Ern&#xE4;hrungsscreening, Aachener Aphasie Test, Dem Tect, Sturzrisikoerfassungsbogen, Geriatrische Depressionsskala"/>
+                    <valueString value="Protokolle, Untersuchungsergebnisse, Befunde und Beurteilungen aus apparativer oder instrumenteller Diagnostik ohne Bildgebung; auch die zugeh&#xF6;rigen Untersuchungsanforderungen werden mit diesem Konzept abgebildet. Beispiele: EEG, EMG, EKG-Befund, EKG-Kurvenausdruck, EKGMessdaten, Manometriebefund, Temperaturmesskurve, Schlaflabordokumentationsbogen, Blutdruckprotokoll, Lungenfunktionsbefund, Spiroergometriebefund, Herzschrittmacher-Protokoll, Belastungs-EKG, Protokoll einer diagnostischen Punktion, Mini Mental Status Test, Schmerzerhebungsbogen, Ern&#xE4;hrungsscreening, Aachener Aphasie Test, Dem Tect, Sturzrisikoerfassungsbogen, Geriatrische Depressionsskala"/>
                 </extension>
                 <code value="FUNK"/>
                 <display value="Ergebnisse Funktionsdiagnostik"/>
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Untersuchungsergebnisse aus apparativer Diagnostik mit bildgebenden Verfahren, einschlie&#xDF;lich Bildern, Befunden und Beurteilungen. Auch Bilder und Befunde aus interventionellen radiologischen Verfahren werden mit diesem Konzept abgebildet. Auch die zugeh&#xF6;rigen Untersuchungsanforderungen werden mit diesem Konzept abgebildet.  Beispiele: Radiologiebefund, R&#xF6;ntgenbild (CR), CT, MRT, PET, Sonographie, Mammographie, Endoskopiebefund, Szintigraphie, Herzkatheter-Bericht, Echokardiographie, Bronchoskopiebefund, Neuroradiologischer Befund,&#10;          Angiographiebefund, Anforderungsschein Duplexsonographie "/>
+                    <valueString value="Untersuchungsergebnisse aus apparativer Diagnostik mit bildgebenden Verfahren, einschlie&#xDF;lich Bildern, Befunden und Beurteilungen. Auch Bilder und Befunde aus interventionellen radiologischen Verfahren werden mit diesem Konzept abgebildet. Auch die zugeh&#xF6;rigen Untersuchungsanforderungen werden mit diesem Konzept abgebildet.  Beispiele: Radiologiebefund, R&#xF6;ntgenbild (CR), CT, MRT, PET, Sonographie, Mammographie, Endoskopiebefund, Szintigraphie, Herzkatheter-Bericht, Echokardiographie, Bronchoskopiebefund, Neuroradiologischer Befund, Angiographiebefund, Anforderungsschein Duplexsonographie "/>
                 </extension>
                 <code value="BILD"/>
                 <display value="Ergebnisse bildgebender Diagnostik"/>
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Dokumente bez&#xFC;glich einer patientenbezogenen Beratung zwischen Fach&#xE4;rzten, Therapeuten oder Pflegepersonal. Bei fachspezifischen Dokumententypen wie Tumorboardprotokolle, sollte stattdessen das spezifischere Konzept verwendet werden, z.B. ONKO (&quot;Onkologische Dokumente&quot;). Fallbesprechungen, die rein aus einem pflegerischem Team bestehen, werden unter Pflegedokumentation abgebildet. Beispiele: interdisziplin&#xE4;re Fallkonferenzprotokolle, interprofessionelle Fallkonferenzprotokolle&#10;        "/>
+                    <valueString value="Dokumente bez&#xFC;glich einer patientenbezogenen Beratung zwischen Fach&#xE4;rzten, Therapeuten oder Pflegepersonal. Bei fachspezifischen Dokumententypen wie Tumorboardprotokolle, sollte stattdessen das spezifischere Konzept verwendet werden, z.B. ONKO (&quot;Onkologische Dokumente&quot;). Fallbesprechungen, die rein aus einem pflegerischem Team bestehen, werden unter Pflegedokumentation abgebildet. Beispiele: interdisziplin&#xE4;re Fallkonferenzprotokolle, interprofessionelle Fallkonferenzprotokolle"/>
                 </extension>
                 <code value="FALL"/>
                 <display value="Fallbesprechungen"/>
@@ -185,7 +185,7 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Dokumente, welche in direktem Zusammenhang mit einer Tumorerkrankung und deren Nachsorge stehen. Ausgenommen sind Dokumente, in der Diagnostik und Therapie des Patienten festgehalten werden und die durch die entsprechenden spezifischeren Konzepte abgebildet werden, z.B. BEFU (&quot;Ergebnisse Diagnostik&quot;), OPDK (&quot;OP-Dokumente&quot;), BSTR (&quot;Bestrahlungsdokumentation&quot;).  Beispiele: onkologische Follow-Up - Dokumente, Meldebogen Krebsregister, Tumorlokalisationsbogen, Tumorboardprotokoll&#10;        "/>
+                    <valueString value="Dokumente, welche in direktem Zusammenhang mit einer Tumorerkrankung und deren Nachsorge stehen. Ausgenommen sind Dokumente, in der Diagnostik und Therapie des Patienten festgehalten werden und die durch die entsprechenden spezifischeren Konzepte abgebildet werden, z.B. BEFU (&quot;Ergebnisse Diagnostik&quot;), OPDK (&quot;OP-Dokumente&quot;), BSTR (&quot;Bestrahlungsdokumentation&quot;).  Beispiele: onkologische Follow-Up - Dokumente, Meldebogen Krebsregister, Tumorlokalisationsbogen, Tumorboardprotokoll"/>
                 </extension>
                 <code value="ONKO"/>
                 <display value="Onkologische Dokumente"/>
@@ -199,21 +199,21 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Dokumente, welche der Patient zu seinem Kontakt in der Gesundheitseinrichtung mitbringt, die aber nicht in unmittelbarem Zusammenhang mit dem aktuellen Kontakt stehen m&#xFC;ssen. Sowie Dokumente, in denen das mitgebrachte Patienteneigentum festgehalten wird.  Beispiele: Ausweise, Vorsorgevollmacht, Patientenverf&#xFC;gung, Wertgegenst&#xE4;ndeverwaltung, Notfalldatensatz, Patiententagebuch&#10;        "/>
+                    <valueString value="Dokumente, welche der Patient zu seinem Kontakt in der Gesundheitseinrichtung mitbringt, die aber nicht in unmittelbarem Zusammenhang mit dem aktuellen Kontakt stehen m&#xFC;ssen. Sowie Dokumente, in denen das mitgebrachte Patienteneigentum festgehalten wird.  Beispiele: Ausweise, Vorsorgevollmacht, Patientenverf&#xFC;gung, Wertgegenst&#xE4;ndeverwaltung, Notfalldatensatz, Patiententagebuch"/>
                 </extension>
                 <code value="PATD"/>
                 <display value="Patienteneigene Dokumente"/>
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Reine Informationsbl&#xE4;tter f&#xFC;r den Patienten, welche &#xFC;ber den Aufenthalt, Verlauf oder eine Krankheit informieren. Diese k&#xF6;nnen auch patientenspezifische Informationen beinhalten. Zus&#xE4;tzlich Terminerinnerungen, Schulungsnachweise und &#xE4;hnliche dem Patienten ausgeh&#xE4;ndigte oder an ihn versandte Unterlagen. Beispiele: vom Patienten nicht unterschriebene Belehrung, Informationsblatt, Schulungsunterlagen, Protokolle individueller Ern&#xE4;hrungsberatung&#10;        "/>
+                    <valueString value="Reine Informationsbl&#xE4;tter f&#xFC;r den Patienten, welche &#xFC;ber den Aufenthalt, Verlauf oder eine Krankheit informieren. Diese k&#xF6;nnen auch patientenspezifische Informationen beinhalten. Zus&#xE4;tzlich Terminerinnerungen, Schulungsnachweise und &#xE4;hnliche dem Patienten ausgeh&#xE4;ndigte oder an ihn versandte Unterlagen. Beispiele: vom Patienten nicht unterschriebene Belehrung, Informationsblatt, Schulungsunterlagen, Protokolle individueller Ern&#xE4;hrungsberatung"/>
                 </extension>
                 <code value="PATI"/>
                 <display value="Patienteninformationen"/>
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Alle Arten von Dokumenten, welche &#xFC;blicherweise vom Pflegepersonal erstellt oder ausgef&#xFC;llt werden, sofern sie nicht durch spezifischere Konzepte abgebildet werden (z.B. Wunddokumentation, Ergebnisse Funktionsdiagnostik, Intensivmedizinische Dokumente). Anforderungen von Therapien werden durch Therapiedokumentation abgebildet. Beispiele: Pflegebericht, Pflegekurve, Pflegeplan, Pflege&#xFC;berleitungsbogen, Sturzprotokoll, &#xDC;berwachungsprotokoll, Pflegeanamnesebogen, Ern&#xE4;hrungsplan, Dekubitusrisikoeinsch&#xE4;tzung, Barthel-Index, Bradenskala, Diabetikerkurve&#10;        "/>
+                    <valueString value="Alle Arten von Dokumenten, welche &#xFC;blicherweise vom Pflegepersonal erstellt oder ausgef&#xFC;llt werden, sofern sie nicht durch spezifischere Konzepte abgebildet werden (z.B. Wunddokumentation, Ergebnisse Funktionsdiagnostik, Intensivmedizinische Dokumente). Anforderungen von Therapien werden durch Therapiedokumentation abgebildet. Beispiele: Pflegebericht, Pflegekurve, Pflegeplan, Pflege&#xFC;berleitungsbogen, Sturzprotokoll, &#xDC;berwachungsprotokoll, Pflegeanamnesebogen, Ern&#xE4;hrungsplan, Dekubitusrisikoeinsch&#xE4;tzung, Barthel-Index, Bradenskala, Diabetikerkurve"/>
                 </extension>
                 <code value="PFLG"/>
                 <display value="Pflegedokumentation"/>
@@ -227,21 +227,21 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Belege f&#xFC;r einen Patienten, welche vom Rettungsdienst erstellt werden. Ausnahme: Reanimationsprotokolle werden &#xFC;ber das Konzept FPRO (&#x201E;Therapiedokumentation&#x201C;) abgebildet.Beispiele: Rettungsdienst-/Notarztprotokoll, Rettungstechnische Daten&#10;        "/>
+                    <valueString value="Belege f&#xFC;r einen Patienten, welche vom Rettungsdienst erstellt werden. Ausnahme: Reanimationsprotokolle werden &#xFC;ber das Konzept FPRO (&#x201E;Therapiedokumentation&#x201C;) abgebildet.Beispiele: Rettungsdienst-/Notarztprotokoll, Rettungstechnische Daten"/>
                 </extension>
                 <code value="RETT"/>
                 <display value="Rettungsdienstliche Dokumente"/>
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Einrichtungs&#xFC;bergreifender Brief-/Fax-/E-Mailverkehr z.B. Krankenhaus-Krankenkasse, Krankenhaus-Patient usw. Beinhaltet auch solche Dokumente die dem Patienten mitgegeben werden. Das Ziel ist nicht die unmittelbare Patientenversorgung sondern davon unabh&#xE4;ngige bzw. diese allenfalls begleitende organisatorische oder administrative Aufgaben, solange diese nicht durch die spezifischeren Konzepte PATI (&quot;Patienteninformationen&quot;) oder ABRE (&quot;Abrechnungsdokumente&quot;) abgedeckt sind. Beispiele: Anforderung Unterlagen, Schriftverkehr Amtsgericht, Schriftverkehr MDK Arzt, Schriftverkehr Krankenkasse, Schriftverkehr Deutsche Rentenversicherung, Bescheinigung &#xFC;ber Krankenhausaufenthalt&#10;        "/>
+                    <valueString value="Einrichtungs&#xFC;bergreifender Brief-/Fax-/E-Mailverkehr z.B. Krankenhaus-Krankenkasse, Krankenhaus-Patient usw. Beinhaltet auch solche Dokumente die dem Patienten mitgegeben werden. Das Ziel ist nicht die unmittelbare Patientenversorgung sondern davon unabh&#xE4;ngige bzw. diese allenfalls begleitende organisatorische oder administrative Aufgaben, solange diese nicht durch die spezifischeren Konzepte PATI (&quot;Patienteninformationen&quot;) oder ABRE (&quot;Abrechnungsdokumente&quot;) abgedeckt sind. Beispiele: Anforderung Unterlagen, Schriftverkehr Amtsgericht, Schriftverkehr MDK Arzt, Schriftverkehr Krankenkasse, Schriftverkehr Deutsche Rentenversicherung, Bescheinigung &#xFC;ber Krankenhausaufenthalt"/>
                 </extension>
                 <code value="SCHR"/>
                 <display value="Schriftwechsel (administrativ)"/>
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Dokumente mit allen Informationen &#xFC;ber die Phase vor, w&#xE4;hrend und nach dem Geburtsverlauf, inklusive Funktionsdiagnostik (z.B. CTG) und Bildgebende Diagnostik und &#xE4;hnliche Befunde die sich auf das Kind beziehen. Weiterhin beinhalten das Konzept Belege zur Neugeborenversorgung, wenn sie der Akte der Mutter zugeordnet sind. Verordnungen und Medikamentationsdokumentation hingegen werden &#xFC;ber die jeweiligen Konzepte (VERO und MEDI) abgebildet.  Beispiele: Geburtenbericht, Geburtenprotokoll, Geburtenverlaufskurve, Neugeborenenscreening, Partogramm, Wiegekarte,&#10;          Neugeborenendokumentationsbogen, S&#xE4;uglingskurve, Stillprotokoll"/>
+                    <valueString value="Dokumente mit allen Informationen &#xFC;ber die Phase vor, w&#xE4;hrend und nach dem Geburtsverlauf, inklusive Funktionsdiagnostik (z.B. CTG) und Bildgebende Diagnostik und &#xE4;hnliche Befunde die sich auf das Kind beziehen. Weiterhin beinhalten das Konzept Belege zur Neugeborenversorgung, wenn sie der Akte der Mutter zugeordnet sind. Verordnungen und Medikamentationsdokumentation hingegen werden &#xFC;ber die jeweiligen Konzepte (VERO und MEDI) abgebildet.  Beispiele: Geburtenbericht, Geburtenprotokoll, Geburtenverlaufskurve, Neugeborenenscreening, Partogramm, Wiegekarte, Neugeborenendokumentationsbogen, S&#xE4;uglingskurve, Stillprotokoll"/>
                 </extension>
                 <code value="GEBU"/>
                 <display value="Schwangerschafts- und Geburtsdokumentation"/>
@@ -255,7 +255,7 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Patientenbezogene Dokumente, die f&#xFC;r die Durchf&#xFC;hrung der Studie (Einschluss, Durchf&#xFC;hrung, Ende) oder anderer Forschungsvorhaben notwendig sind.  Beispiele: CRF-Bogen, Einwilligung in Studie, Protokoll Ein- und Ausschlusskriterien, Pr&#xFC;fplan, SOP Bogen, Studienbericht&#10;        "/>
+                    <valueString value="Patientenbezogene Dokumente, die f&#xFC;r die Durchf&#xFC;hrung der Studie (Einschluss, Durchf&#xFC;hrung, Ende) oder anderer Forschungsvorhaben notwendig sind.  Beispiele: CRF-Bogen, Einwilligung in Studie, Protokoll Ein- und Ausschlusskriterien, Pr&#xFC;fplan, SOP Bogen, Studienbericht"/>
                 </extension>
                 <code value="STUD"/>
                 <display value="Studiendokumente"/>
@@ -276,7 +276,7 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Verordnungen f&#xFC;r Heil- und Hilfsmittel, Krankentransport oder andere medizinische G&#xFC;ter und Dienstleistungen mit Ausnahme der &#xDC;berweisungen und Verordnung von Krankenhausbehandlung. Verordnete Medikationen fallen unter MEDI (&quot;Medikament&#xF6;se Therapie&quot;). &#xDC;berweisungen und Verordnungen von Krankenhausbehandlung werden &#xFC;ber das Konzept AUFN (&#x201E;Einweisungs- und Aufnahmedokumente&#x201C;) abgedeckt.Beispiele: Hilfsmittel, Krankentransport, Verordnung von Physiotherapie&#10;        "/>
+                    <valueString value="Verordnungen f&#xFC;r Heil- und Hilfsmittel, Krankentransport oder andere medizinische G&#xFC;ter und Dienstleistungen mit Ausnahme der &#xDC;berweisungen und Verordnung von Krankenhausbehandlung. Verordnete Medikationen fallen unter MEDI (&quot;Medikament&#xF6;se Therapie&quot;). &#xDC;berweisungen und Verordnungen von Krankenhausbehandlung werden &#xFC;ber das Konzept AUFN (&#x201E;Einweisungs- und Aufnahmedokumente&#x201C;) abgedeckt.Beispiele: Hilfsmittel, Krankentransport, Verordnung von Physiotherapie"/>
                 </extension>
                 <code value="VERO"/>
                 <display value="Verordnungen"/>
@@ -297,7 +297,7 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Berichte und Verlaufsdokumentationen zur Wunderfassung sowie Wundversorgung eines Patienten, einschlie&#xDF;lich der hierf&#xFC;r spezifischen Fotodokumentation.  Beispiele: Wunddokumentationsbogen, Bewegungs- und Lagerungsplan, Wundverlaufsbericht, Wundfotos mit/ohne Vermessungen, Dekubitusdokumentation Ausgeschlossen: Dekubitusrisikoeinsch&#xE4;tzung (siehe Pflegedokumentation).&#10;        "/>
+                    <valueString value="Berichte und Verlaufsdokumentationen zur Wunderfassung sowie Wundversorgung eines Patienten, einschlie&#xDF;lich der hierf&#xFC;r spezifischen Fotodokumentation.  Beispiele: Wunddokumentationsbogen, Bewegungs- und Lagerungsplan, Wundverlaufsbericht, Wundfotos mit/ohne Vermessungen, Dekubitusdokumentation Ausgeschlossen: Dekubitusrisikoeinsch&#xE4;tzung (siehe Pflegedokumentation)."/>
                 </extension>
                 <code value="WUND"/>
                 <display value="Wunddokumentation"/>

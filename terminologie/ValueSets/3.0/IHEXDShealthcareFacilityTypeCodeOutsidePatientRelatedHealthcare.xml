@@ -9,7 +9,7 @@
             <start value="2018-07-13T16:21:25+01:00"/>
         </valuePeriod>
     </extension>
-    <url value="http://art-decor.org/fhir/ValueSet/1.2.276.0.76.11.59--20180713162125"/>
+    <url value="http://ihe-d.de/ValueSets/IHEXDShealthcareFacilityTypeCodeOutsidePatientRelatedHealthcare"/>
     <identifier>
         <use value="official"/>
         <system value="urn:ietf:rfc:3986"/>

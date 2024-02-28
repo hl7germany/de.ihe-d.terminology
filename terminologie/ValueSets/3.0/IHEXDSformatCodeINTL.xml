@@ -9,7 +9,7 @@
             <start value="2021-07-06T21:26:36+01:00"/>
         </valuePeriod>
     </extension>
-    <url value="http://art-decor.org/fhir/ValueSet/1.2.276.0.76.11.71--20210706212636"/>
+    <url value="http://ihe-d.de/ValueSets/IHEXDSformatCodeINTL"/>
     <identifier>
         <use value="official"/>
         <system value="urn:ietf:rfc:3986"/>
@@ -32,7 +32,7 @@
             </concept>
         </include>
         <include>
-            <system value="http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem"/>
+            <system value="http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode"/>
             <concept>
                 <code value="urn:ihe:pcc:xds-ms:2007"/>
                 <display value="Medical Summaries (XDS-MS)"/>

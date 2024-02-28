@@ -25,7 +25,7 @@
     <immutable value="false"/>
     <compose>
         <include>
-            <valueSet value="http://art-decor.org/fhir/ValueSet/1.2.276.0.76.11.69--20190405083559"/>
+            <valueSet value="http://ihe-d.de/ValueSets/IHEXDSpracticeSettingCodeDoctoral"/>
         </include>
         <include>
             <valueSet value="http://ihe-d.de/ValueSets/IHEXDSpracticeSettingCodeNonDoctoral"/>

@@ -164,7 +164,7 @@
             </concept>
         </include>
         <include>
-            <valueSet value="http://art-decor.org/fhir/ValueSet/1.2.276.0.76.11.71--20180713170639"/>
+            <valueSet value="http://ihe-d.de/ValueSets/IHEXDSformatCodeINTL"/>
         </include>
     </compose>
 </ValueSet>
