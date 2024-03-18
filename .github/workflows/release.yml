@@ -12,13 +12,13 @@ jobs:
     
      steps:
      - name: Checkout code
-       uses: actions/checkout@v3
+       uses: actions/checkout@v4
        with:
         path: 'de.ihe-d.terminology'
         token: ${{ secrets.Personal_Access_Token_Public_Repo }}
         
      - name: Checkout Package Registry
-       uses: actions/checkout@v3
+       uses: actions/checkout@v4
        with:
         repository: 'hl7germany/hl7-de-package-feed'
         ref: main
@@ -26,7 +26,7 @@ jobs:
         token: ${{ secrets.Personal_Access_Token_Public_Repo }}
         
      - name: Checkout Update Package Registry Script
-       uses: actions/checkout@v3
+       uses: actions/checkout@v4
        with:
         repository: 'alexzautke/update-fhir-package-feed'
         ref: main
@@ -34,7 +34,7 @@ jobs:
         token: ${{ secrets.Personal_Access_Token_Public_Repo }}
          
      - name: Release-FHIR-Package-To-Registry (GitHub Actions)
-       uses: alexzautke/fhir-package-registry-pipeline@v0.1.1
+       uses: alexzautke/fhir-package-registry-pipeline@v0.2.1
        with:
         SIMPLIFIER_USERNAME: ${{ secrets.SIMPLIFIER_USERNAME }}
         SIMPLIFIER_PASSWORD: ${{ secrets.SIMPLIFIER_PASSWORD }}
