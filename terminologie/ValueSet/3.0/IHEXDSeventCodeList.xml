@@ -211,7 +211,7 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Der Hinweis gibt Auskunft dar&#xFC;ber, ob das Dokument zum Zeitpunkt des Einstellens bereits mit dem Patienten besprochen wurde. Dies kann genutzt werden um zu verhindern, dass der Patient sensible Informationen, wie die Diagnose einer unheilbaren Krankheit, aus einem Dokument anstatt von seinem Arzt erf&#xE4;hrt. Dabei liegt der Fokus auf der Frage, ob das Dokument noch mit dem Patienten besprochen werden muss und nicht wer es noch mit dem Patienten besprechen muss. Somit k&#xF6;nnen auch einrichtungs&#xFC;bergreifende Szenarien unterst&#xFC;tzt werden, z.B. wenn die Besprechung des Befundes nicht in der Hand des Erzeugers liegt. "/>
+                    <valueString value="Der Hinweis gibt Auskunft dar&#xFC;ber, ob das Dokument zum Zeitpunkt des Einstellens bereits mit dem Patienten besprochen wurde. Dies kann genutzt werden um zu verhindern, dass der Patient sensible Informationen, wie die Diagnose einer unheilbaren Krankheit, aus einem Dokument anstatt von seinem Arzt erf&#xE4;hrt. Dabei liegt der Fokus auf der Frage, ob das Dokument noch mit dem Patienten besprochen werden muss und nicht wer es noch mit dem Patienten besprechen muss. Somit k&#xF6;nnen auch einrichtungs&#xFC;bergreifende Szenarien unterst&#xFC;tzt werden, z.B. wenn die Besprechung des Befundes nicht in der Hand des Erzeugers liegt."/>
                 </extension>
                 <code value="H2"/>
                 <display value="noch nicht mit Patient besprochen"/>
