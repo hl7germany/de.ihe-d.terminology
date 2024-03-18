@@ -5,7 +5,7 @@
   "name": "FacharzttitelDerAerztekammern",
   "id": "FacharzttitelDerAerztekammern",
   "title": "Facharzttitel Der Aerztekammern",
-  "status": "draft",
+  "status": "active",
   "experimental": false,
   "publisher": "IHE Deutschland e.V.",
   "caseSensitive": true,
