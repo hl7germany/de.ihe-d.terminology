@@ -63,7 +63,7 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Die Person, die den Patienten betreut, d.h. den &#xDC;berblick &#xFC;ber die Behandlung beh&#xE4;lt und als prim&#xE4;rer Ansprechpartner w&#xE4;hrend der Behandlung dient.&#xA0;"/>
+                    <valueString value="Die Person, die den Patienten betreut, d.h. den &#xDC;berblick &#xFC;ber die Behandlung beh&#xE4;lt und als prim&#xE4;rer Ansprechpartner w&#xE4;hrend der Behandlung dient."/>
                 </extension>
                 <code value="6"/>
                 <display value="Betreuer"/>

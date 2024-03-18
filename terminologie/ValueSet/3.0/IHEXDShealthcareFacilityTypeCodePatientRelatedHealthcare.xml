@@ -28,7 +28,7 @@
             <system value="http://ihe-d.de/CodeSystems/PatientBezogenenGesundheitsversorgung"/>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Sozialstationen und gewerblich betriebene ambulante Pflegedienste, die Patienten in der eigenen h&#xE4;uslichen Umgebung betreuen, aber keine &#xE4;rztlichen T&#xE4;tigkeiten durchf&#xFC;hren. "/>
+                    <valueString value="Sozialstationen und gewerblich betriebene ambulante Pflegedienste, die Patienten in der eigenen h&#xE4;uslichen Umgebung betreuen, aber keine &#xE4;rztlichen T&#xE4;tigkeiten durchf&#xFC;hren."/>
                 </extension>
                 <code value="APD"/>
                 <display value="Ambulanter Pflegedienst"/>
@@ -70,28 +70,28 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Eine freiberuflich t&#xE4;tige Hebamme; bzw. eine in Kooperation mit anderen Hebammen t&#xE4;tige Hebamme. Dieser Wert deckt auch Geburtsh&#xE4;user ab, d.h. &#xFC;blicherweise von Hebammen betriebene au&#xDF;erklinische Einrichtungen. "/>
+                    <valueString value="Eine freiberuflich t&#xE4;tige Hebamme; bzw. eine in Kooperation mit anderen Hebammen t&#xE4;tige Hebamme. Dieser Wert deckt auch Geburtsh&#xE4;user ab, d.h. &#xFC;blicherweise von Hebammen betriebene au&#xDF;erklinische Einrichtungen."/>
                 </extension>
                 <code value="HEB"/>
                 <display value="Hebamme/Geburtshaus"/>
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Eine station&#xE4;re oder ambulante Einrichtung der Sterbebegleitung. Dies umfasst sowohl Pflegeheim-&#xE4;hnliche Einrichtungen, wie auch Einrichtungen die den Patienten in der eigenen h&#xE4;uslichen Umgebung betreuen. Sowohl Einrichtungen unter &#xE4;rztlicher Leitung, wie auch unter pflegerischer Leitung werden hier zusammengefasst. "/>
+                    <valueString value="Eine station&#xE4;re oder ambulante Einrichtung der Sterbebegleitung. Dies umfasst sowohl Pflegeheim-&#xE4;hnliche Einrichtungen, wie auch Einrichtungen die den Patienten in der eigenen h&#xE4;uslichen Umgebung betreuen. Sowohl Einrichtungen unter &#xE4;rztlicher Leitung, wie auch unter pflegerischer Leitung werden hier zusammengefasst."/>
                 </extension>
                 <code value="HOS"/>
                 <display value="Hospiz"/>
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Eine Einrichtung die als Krankenhaus nach dem Krankenhausfinanzierungsgesetz (KHG) zu verstehen ist, mit Ausnahme von Reha-Kliniken. Zu den Krankenh&#xE4;usern geh&#xF6;ren hierbei auch Zahnkliniken. Zus&#xE4;tzlich fallen unter diesen Wert auch Krankenh&#xE4;user auf die das KHG keine Anwendung findet (siehe &#xA7;3, z.B. im Straf- oder Ma&#xDF;regelvollzug, Polizeikrankenh&#xE4;user, Bundeswehrkrankenh&#xE4;user...), solange es sich nicht um Einrichtungen der medizinischen Rehabilitation handelt.  F&#xFC;r Dokumente aus der Abteilung Krankenhausapotheke oder aus Krankenhausambulanzen sollte immer das Konzept KHS &quot;Krankenhaus&quot; verwendet werden. Auch bei vornehmlich telemedizinisch erbrachten Leistungen eines Krankenhauses (z.B. Teleradiologie) sollte das Konzept KHS &quot;Krankenhaus&quot;&quot; verwendet werden.  F&#xFC;r angeschlossene, aber selbst&#xE4;ndige Einrichtungen, wie z.B. ein zum Krankenhaus geh&#xF6;riges MVZ oder Hospiz, sollte dieses Konzept (KHS &quot;Krankenhaus&quot;), sondern ein spezifischeres Konzept f&#xFC;r den Einrichtungstyp verwendet werden. Dazu z&#xE4;hlen auch ausgegr&#xFC;ndete Labore, die als Arztpraxis abgebildet werden, da sie eine entsprechende KV-Zulassung ben&#xF6;tigen. Psychotherapeutische, psychiatrische und psychosomatische Abteilungen von Krankenh&#xE4;usern und eigenst&#xE4;ndige Fachkliniken aus diesem Bereich werden auch mit diesem Wert abgedeckt, unabh&#xE4;ngig davon ob die Dienste station&#xE4;r, als Tagesklinik oder ambulant angeboten werden. "/>
+                    <valueString value="Eine Einrichtung die als Krankenhaus nach dem Krankenhausfinanzierungsgesetz (KHG) zu verstehen ist, mit Ausnahme von Reha-Kliniken. Zu den Krankenh&#xE4;usern geh&#xF6;ren hierbei auch Zahnkliniken. Zus&#xE4;tzlich fallen unter diesen Wert auch Krankenh&#xE4;user auf die das KHG keine Anwendung findet (siehe &#xA7;3, z.B. im Straf- oder Ma&#xDF;regelvollzug, Polizeikrankenh&#xE4;user, Bundeswehrkrankenh&#xE4;user...), solange es sich nicht um Einrichtungen der medizinischen Rehabilitation handelt.  F&#xFC;r Dokumente aus der Abteilung Krankenhausapotheke oder aus Krankenhausambulanzen sollte immer das Konzept KHS &quot;Krankenhaus&quot; verwendet werden. Auch bei vornehmlich telemedizinisch erbrachten Leistungen eines Krankenhauses (z.B. Teleradiologie) sollte das Konzept KHS &quot;Krankenhaus&quot;&quot; verwendet werden.  F&#xFC;r angeschlossene, aber selbst&#xE4;ndige Einrichtungen, wie z.B. ein zum Krankenhaus geh&#xF6;riges MVZ oder Hospiz, sollte dieses Konzept (KHS &quot;Krankenhaus&quot;), sondern ein spezifischeres Konzept f&#xFC;r den Einrichtungstyp verwendet werden. Dazu z&#xE4;hlen auch ausgegr&#xFC;ndete Labore, die als Arztpraxis abgebildet werden, da sie eine entsprechende KV-Zulassung ben&#xF6;tigen. Psychotherapeutische, psychiatrische und psychosomatische Abteilungen von Krankenh&#xE4;usern und eigenst&#xE4;ndige Fachkliniken aus diesem Bereich werden auch mit diesem Wert abgedeckt, unabh&#xE4;ngig davon ob die Dienste station&#xE4;r, als Tagesklinik oder ambulant angeboten werden."/>
                 </extension>
                 <code value="KHS"/>
                 <display value="Krankenhaus"/>
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Einrichtung zur ambulanten medizinischen Versorgung nach &#xA7;95 SGB V; dieses Konzept sollte f&#xFC;r ein MVZ unabh&#xE4;ngig von der Besitzerstruktur gew&#xE4;hlt werden, d.h. auch MVZ die einem Krankenhaus geh&#xF6;ren, sollten als MVZ gekennzeichnet werden. "/>
+                    <valueString value="Einrichtung zur ambulanten medizinischen Versorgung nach &#xA7;95 SGB V; dieses Konzept sollte f&#xFC;r ein MVZ unabh&#xE4;ngig von der Besitzerstruktur gew&#xE4;hlt werden, d.h. auch MVZ die einem Krankenhaus geh&#xF6;ren, sollten als MVZ gekennzeichnet werden."/>
                 </extension>
                 <code value="MVZ"/>
                 <display value="Medizinisches Versorgungszentrum"/>
@@ -112,14 +112,14 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Von nicht-&#xE4;rztlichen Heilberuflern betriebene Einrichtungen zur Beratung, Therapie oder Betreuung. Darunter fallen Praxen von Heilpraktikerinnen, Physiotherapeutinnen, Ergotherapeutinnen, Podologinnen, Masseurinnen, Logop&#xE4;dinnen, Sprachtherapeutinnen, Di&#xE4;tassistentinnen, sowie human-medizinische Beratungsstellen. Auch nicht-&#xE4;rztliche psychotherapeutische Praxen, z.B. von Diplom oder Master-Psychologen, geh&#xF6;ren dazu.  Dokumente von freiberuflichen Hebammen fallen nicht in diese Gruppe, sondern sind mit dem Konzept f&#xFC;r HEB &quot;Hebamme/Geburtshaus&quot; zu kennzeichnen.  Dokumente von Pflegediensten oder freiberuflichen Pflegekr&#xE4;ften fallen nicht in diese Gruppe sondern sind mit dem Konzept APD &#xA0;&quot;Ambulante Pflegedienste&quot; zu kennzeichnen. "/>
+                    <valueString value="Von nicht-&#xE4;rztlichen Heilberuflern betriebene Einrichtungen zur Beratung, Therapie oder Betreuung. Darunter fallen Praxen von Heilpraktikerinnen, Physiotherapeutinnen, Ergotherapeutinnen, Podologinnen, Masseurinnen, Logop&#xE4;dinnen, Sprachtherapeutinnen, Di&#xE4;tassistentinnen, sowie human-medizinische Beratungsstellen. Auch nicht-&#xE4;rztliche psychotherapeutische Praxen, z.B. von Diplom oder Master-Psychologen, geh&#xF6;ren dazu.  Dokumente von freiberuflichen Hebammen fallen nicht in diese Gruppe, sondern sind mit dem Konzept f&#xFC;r HEB &quot;Hebamme/Geburtshaus&quot; zu kennzeichnen.  Dokumente von Pflegediensten oder freiberuflichen Pflegekr&#xE4;ften fallen nicht in diese Gruppe sondern sind mit dem Konzept APD &#xA0;&quot;Ambulante Pflegedienste&quot; zu kennzeichnen."/>
                 </extension>
                 <code value="HEI"/>
                 <display value="Nicht-&#xE4;rztliche Heilberufs-Praxis"/>
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Eine Einrichtung zur Unterbringung und Versorgung pflegebed&#xFC;rftiger Menschen. Umfasst Altenpflegeheime und Pflegeheime f&#xFC;r Menschen mit Behinderung. Die Einrichtungen versorgen Menschen &#xFC;blicherweise langfristig, aber auch Kurzzeitpflege der genannten Personengruppen ist durch dieses Konzept abgedeckt. "/>
+                    <valueString value="Eine Einrichtung zur Unterbringung und Versorgung pflegebed&#xFC;rftiger Menschen. Umfasst Altenpflegeheime und Pflegeheime f&#xFC;r Menschen mit Behinderung. Die Einrichtungen versorgen Menschen &#xFC;blicherweise langfristig, aber auch Kurzzeitpflege der genannten Personengruppen ist durch dieses Konzept abgedeckt."/>
                 </extension>
                 <code value="PFL"/>
                 <display value="Pflegeheim"/>

@@ -42,7 +42,7 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Organisationen die Dienste f&#xFC;r Vaterschafts-/Mutterschaftstest anbieten, f&#xFC;r Abstammungtests, Riskoanalysen, etc. "/>
+                    <valueString value="Organisationen die Dienste f&#xFC;r Vaterschafts-/Mutterschaftstest anbieten, f&#xFC;r Abstammungtests, Riskoanalysen, etc."/>
                 </extension>
                 <code value="GEN"/>
                 <display value="Gen-Analysedienste"/>

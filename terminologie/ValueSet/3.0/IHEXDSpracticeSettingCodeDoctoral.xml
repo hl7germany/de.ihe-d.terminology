@@ -268,7 +268,7 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Die gyn&#xE4;kologische Endokrinologie befasst sich mit der Diagnostik und Therapie von Hormonst&#xF6;rungen. Die Reproduktionsmedizin befasst sich mit Fragen bei unerf&#xFC;lltem Kinderwunsch. "/>
+                    <valueString value="Die gyn&#xE4;kologische Endokrinologie befasst sich mit der Diagnostik und Therapie von Hormonst&#xF6;rungen. Die Reproduktionsmedizin befasst sich mit Fragen bei unerf&#xFC;lltem Kinderwunsch."/>
                 </extension>
                 <code value="GEND"/>
                 <display value="Gyn&#xE4;kologische Endokrinologie und Reproduktionsmedizin"/>
@@ -316,7 +316,7 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Das Fachgebiet der Geriatrie besch&#xE4;ftigt sich mit der Versorgung von akuten und chronischen Erkrankungen sowie der Rehabilitation und Pr&#xE4;vention alter Patienten. "/>
+                    <valueString value="Das Fachgebiet der Geriatrie besch&#xE4;ftigt sich mit der Versorgung von akuten und chronischen Erkrankungen sowie der Rehabilitation und Pr&#xE4;vention alter Patienten."/>
                 </extension>
                 <code value="GERI"/>
                 <display value="Geriatrie"/>
@@ -492,7 +492,7 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Die Kardiologie ist eine Spezialisierung des Fachgebietes Innere Medizin. Das Gebiet befasst sich mit Diagnose und Therapie von Herz-Kreislauf-Erkrankungen. "/>
+                    <valueString value="Die Kardiologie ist eine Spezialisierung des Fachgebietes Innere Medizin. Das Gebiet befasst sich mit Diagnose und Therapie von Herz-Kreislauf-Erkrankungen."/>
                 </extension>
                 <code value="KARD"/>
                 <display value="Kardiologie"/>
@@ -604,7 +604,7 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Das Fachgebiet der Schmerzmedizin besch&#xE4;ftigt sich mit der Diagnostik und Therapie des chronischen Schmerzes. "/>
+                    <valueString value="Das Fachgebiet der Schmerzmedizin besch&#xE4;ftigt sich mit der Diagnostik und Therapie des chronischen Schmerzes."/>
                 </extension>
                 <code value="INTS"/>
                 <display value="Interdisziplin&#xE4;re Schmerzmedizin"/>
@@ -620,7 +620,7 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Die Transplantationsmedizin befasst sich mit der &#xDC;bertragung von Zellen, Geweben, Organen oder Organsystemen von einem Organismus auf einen anderen Organismus. Die gesetzlichen Rahmenbedingungen der Transplantationsmedizin sind in Deutschland im Transplantationsgesetz geregelt, woraus sich die Bildung interdisziplin&#xE4;rer Einrichtungen zur &#xDC;bertragung von Spenderorganen ableitet. Solche Transplantationszentren &#xFC;bernehmen in Erg&#xE4;nzung zu den jeweiligen spezialisierten klinischen Fachgebieten (z.B. Viszeralchirurgie, Herzchirurgie, Nephrologie) insbesondere Aufgaben im Bereich der Indikationsstellung, Vorbereitung, Dokumentation und Nachsorge bei Organtransplantationen und Lebend-Organspenden, sowie beim Wartelistenmanagement und bei erforderlicher psychischer Betreuung der Patienten im Krankenhaus vor und nach der Organ&#xFC;bertragung. Sofern Dokumente in solchen oder vergleichbaren Transplantationsmedizinischen Einrichtungen erstellt werden und nicht einer spezifischeren, an Transplantationen beteiligten Fachrichtung zuzuordnen sind, k&#xF6;nnen sie mit diesem Konzept codiert werden.&#xA0;Dokumente aus der Transplantationsimmunologie sollen mit dem Konzept TRAN (Transfusionsmedizin) codiert werden.&#xA0;"/>
+                    <valueString value="Die Transplantationsmedizin befasst sich mit der &#xDC;bertragung von Zellen, Geweben, Organen oder Organsystemen von einem Organismus auf einen anderen Organismus. Die gesetzlichen Rahmenbedingungen der Transplantationsmedizin sind in Deutschland im Transplantationsgesetz geregelt, woraus sich die Bildung interdisziplin&#xE4;rer Einrichtungen zur &#xDC;bertragung von Spenderorganen ableitet. Solche Transplantationszentren &#xFC;bernehmen in Erg&#xE4;nzung zu den jeweiligen spezialisierten klinischen Fachgebieten (z.B. Viszeralchirurgie, Herzchirurgie, Nephrologie) insbesondere Aufgaben im Bereich der Indikationsstellung, Vorbereitung, Dokumentation und Nachsorge bei Organtransplantationen und Lebend-Organspenden, sowie beim Wartelistenmanagement und bei erforderlicher psychischer Betreuung der Patienten im Krankenhaus vor und nach der Organ&#xFC;bertragung. Sofern Dokumente in solchen oder vergleichbaren Transplantationsmedizinischen Einrichtungen erstellt werden und nicht einer spezifischeren, an Transplantationen beteiligten Fachrichtung zuzuordnen sind, k&#xF6;nnen sie mit diesem Konzept codiert werden.&#xA0;Dokumente aus der Transplantationsimmunologie sollen mit dem Konzept TRAN (Transfusionsmedizin) codiert werden."/>
                 </extension>
                 <code value="TRPL"/>
                 <display value="Transplantationsmedizin"/>
@@ -764,7 +764,7 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Die Mikrobiologie besch&#xE4;ftigt sich mit der Erforschung von Mikroorganismen, ihrem Stoffwechsel und ihrer Wirkung auf andere Organismen. Die Virologie ist die Lehre von den Viren. Die Infektionsepidemiologie besch&#xE4;ftigt sich &#xA0;mit der Epidemiologie von &#xFC;bertragbaren Erkrankungen.In diesen drei Fachgebieten wird mittels der Labordiagnostik die Ursache von durch Mikroorganismen, Viren und anderen &#xFC;bertragbaren Stoffen ausgel&#xF6;ste Erkrankungen gesucht. "/>
+                    <valueString value="Die Mikrobiologie besch&#xE4;ftigt sich mit der Erforschung von Mikroorganismen, ihrem Stoffwechsel und ihrer Wirkung auf andere Organismen. Die Virologie ist die Lehre von den Viren. Die Infektionsepidemiologie besch&#xE4;ftigt sich &#xA0;mit der Epidemiologie von &#xFC;bertragbaren Erkrankungen.In diesen drei Fachgebieten wird mittels der Labordiagnostik die Ursache von durch Mikroorganismen, Viren und anderen &#xFC;bertragbaren Stoffen ausgel&#xF6;ste Erkrankungen gesucht."/>
                 </extension>
                 <code value="MIKR"/>
                 <display value="Mikrobiologie, Virologie und Infektionsepidemiologie"/>
@@ -940,7 +940,7 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Das Gebiet der Pharmakologie besch&#xE4;ftigt sich mit den Wechselwirkungen zwischen (Wirk-) Stoffen und Lebewesen&#xA0;"/>
+                    <valueString value="Das Gebiet der Pharmakologie besch&#xE4;ftigt sich mit den Wechselwirkungen zwischen (Wirk-) Stoffen und Lebewesen"/>
                 </extension>
                 <code value="PHAR"/>
                 <display value="Pharmakologie"/>
@@ -988,7 +988,7 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Das Fachgebiet der Psychiatrie besch&#xE4;ftigt sich mit Pr&#xE4;vention, Diagnostik und Therapie psychischer Erkrankungen.Mit Psychotherapie bezeichnet man die T&#xE4;tigkeit, welche zur Erkennung und Therapie von geistig-seelisch bedingten, dysfunktionalen Zust&#xE4;nden eines Patienten durchgef&#xFC;hrt wird. "/>
+                    <valueString value="Das Fachgebiet der Psychiatrie besch&#xE4;ftigt sich mit Pr&#xE4;vention, Diagnostik und Therapie psychischer Erkrankungen.Mit Psychotherapie bezeichnet man die T&#xE4;tigkeit, welche zur Erkennung und Therapie von geistig-seelisch bedingten, dysfunktionalen Zust&#xE4;nden eines Patienten durchgef&#xFC;hrt wird."/>
                 </extension>
                 <code value="PSYC"/>
                 <display value="Psychiatrie und Psychotherapie"/>
@@ -1164,7 +1164,7 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Das Fachgebiet der Tropenmedizin besch&#xE4;ftigt sich mit der Epidemiologie, Pr&#xE4;vention, Diagnostik und Therapie/Bek&#xE4;mpfung von Tropenerkrankungen.Das Fachgebiet der Reisemedizin besch&#xE4;ftigt sich mit allen Fragen, welche bei der Erforschung und Bek&#xE4;mpfung von Erkrankungen, die im Rahmen von Reisen entstehen k&#xF6;nnen, auftreten. Insbesondere die Pr&#xE4;vention vor diesen Erkrankungen geh&#xF6;rt zu der Reisemedizin. "/>
+                    <valueString value="Das Fachgebiet der Tropenmedizin besch&#xE4;ftigt sich mit der Epidemiologie, Pr&#xE4;vention, Diagnostik und Therapie/Bek&#xE4;mpfung von Tropenerkrankungen.Das Fachgebiet der Reisemedizin besch&#xE4;ftigt sich mit allen Fragen, welche bei der Erforschung und Bek&#xE4;mpfung von Erkrankungen, die im Rahmen von Reisen entstehen k&#xF6;nnen, auftreten. Insbesondere die Pr&#xE4;vention vor diesen Erkrankungen geh&#xF6;rt zu der Reisemedizin."/>
                 </extension>
                 <code value="TROP"/>
                 <display value="Tropen-/Reisemedizin"/>

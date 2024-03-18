@@ -35,7 +35,7 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Das Fachgebiet der Ern&#xE4;hrung und Di&#xE4;tetik deckt die T&#xE4;tigkeiten folgender Berufe ab:* Di&#xE4;tassistentin/ Di&#xE4;tassistent* Di&#xE4;tk&#xF6;chin/ Di&#xE4;tkoch* Ern&#xE4;hrungsberaterin/ Ern&#xE4;hrungsberater* Oekotrophologin/ Oekotrophologe* Diabetesassistentin/ Diabetesassistent* Diabetesberaterin/ Diabetesberater "/>
+                    <valueString value="Das Fachgebiet der Ern&#xE4;hrung und Di&#xE4;tetik deckt die T&#xE4;tigkeiten folgender Berufe ab:* Di&#xE4;tassistentin/ Di&#xE4;tassistent* Di&#xE4;tk&#xF6;chin/ Di&#xE4;tkoch* Ern&#xE4;hrungsberaterin/ Ern&#xE4;hrungsberater* Oekotrophologin/ Oekotrophologe* Diabetesassistentin/ Diabetesassistent* Diabetesberaterin/ Diabetesberater"/>
                 </extension>
                 <code value="ERN"/>
                 <display value="Ern&#xE4;hrung und Di&#xE4;tetik"/>

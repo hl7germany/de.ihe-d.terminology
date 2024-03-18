@@ -45,7 +45,7 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Administrative Belege, die in erster Linie der Unterst&#xFC;tzung von Organisationsprozessen dienen. Checklisten die prim&#xE4;r zur Qualit&#xE4;tssicherung dienen werden mit dem Konzept QUAL (&quot;Qualit&#xE4;tssicherung&quot;) abgedeckt. Checklisten die den Aufnahmeprozess betreffen werden mit dem Konzept AUFN (&quot;Einweisungs- und Aufnahmedokumente&quot;) abgebildet.Beispiele: Aktenlaufzettel, Checkliste Entlassung "/>
+                    <valueString value="Administrative Belege, die in erster Linie der Unterst&#xFC;tzung von Organisationsprozessen dienen. Checklisten die prim&#xE4;r zur Qualit&#xE4;tssicherung dienen werden mit dem Konzept QUAL (&quot;Qualit&#xE4;tssicherung&quot;) abgedeckt. Checklisten die den Aufnahmeprozess betreffen werden mit dem Konzept AUFN (&quot;Einweisungs- und Aufnahmedokumente&quot;) abgebildet.Beispiele: Aktenlaufzettel, Checkliste Entlassung"/>
                 </extension>
                 <code value="ADCH"/>
                 <display value="Administrative Checklisten"/>
@@ -66,28 +66,28 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="&#xC4;rztliche Zusammenfassungen und Verlaufsbeurteilungen von Behandlungsepisoden, Epikrisen und Abschlussberichte zu station&#xE4;ren oder ambulanten Behandlungsf&#xE4;llen.Beispiele: Arztbrief, Entlassungsbericht, &#xC4;rztliche Stellungnahme, Durchgangsarztbericht / BG-Bericht, Rehabericht, Verlegungsbericht, vorl&#xE4;ufiger Arztbericht, &#xE4;rztlicher Verlaufsbericht, Ambulanzbericht "/>
+                    <valueString value="&#xC4;rztliche Zusammenfassungen und Verlaufsbeurteilungen von Behandlungsepisoden, Epikrisen und Abschlussberichte zu station&#xE4;ren oder ambulanten Behandlungsf&#xE4;llen.Beispiele: Arztbrief, Entlassungsbericht, &#xC4;rztliche Stellungnahme, Durchgangsarztbericht / BG-Bericht, Rehabericht, Verlegungsbericht, vorl&#xE4;ufiger Arztbericht, &#xE4;rztlicher Verlaufsbericht, Ambulanzbericht"/>
                 </extension>
                 <code value="BERI"/>
                 <display value="Arztberichte"/>
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Best&#xE4;tigung eines Arztes &#xFC;ber einen bestimmten, patientenbezogenen Sachverhalt.Beispiele: Arbeitsunf&#xE4;higkeitsbescheinigung, Beurlaubung, Todesbescheinigung, &#xC4;rztliche Bescheinigung, Notfall-/ Vertretungsschein "/>
+                    <valueString value="Best&#xE4;tigung eines Arztes &#xFC;ber einen bestimmten, patientenbezogenen Sachverhalt.Beispiele: Arbeitsunf&#xE4;higkeitsbescheinigung, Beurlaubung, Todesbescheinigung, &#xC4;rztliche Bescheinigung, Notfall-/ Vertretungsschein"/>
                 </extension>
                 <code value="BESC"/>
                 <display value="&#xC4;rztliche Bescheinigungen"/>
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Alle Arten von Befunden und Befundbeurteilungen, sofern sie nicht durch spezifischere Konzepte abgebildet werden, z.B. BILD (&quot;Ergebnisse Bildgebende Diagnostik&quot;), FUNK (&quot;Ergebnisse Funktionsdiagnostik&quot;), MKRO (&quot;Ergebnisse Mikrobiologie&quot;), PATH (&quot;Pathologiebefundberichte&quot;) oder VIRO (&quot;Ergebnisse Virologie&quot;). Auch die zugeh&#xF6;rigen Untersuchungsanforderungen werden mit diesem Konzept abgebildet.Beispiele: Laborbefund, PoCT-Befund, RIA-Befund, Anatomische Skizzen, Befundbogen, Bericht Gesundheitsuntersuchung, Krebsfr&#xFC;herkennung,&#xA0; Befund berufliche Belastungserprobung, Endokrinologiebefund, Fettstoffwechselanalytik, H&#xE4;mostaseologiebefund/Gerinnung, H&#xE4;matologiebefund, Klinische Chemie, Protein-Labor, Hb-Labor, Gesichtsfeldbefund, Blutgasanalyse, Blutzuckeranalyse, Laboranforderung "/>
+                    <valueString value="Alle Arten von Befunden und Befundbeurteilungen, sofern sie nicht durch spezifischere Konzepte abgebildet werden, z.B. BILD (&quot;Ergebnisse Bildgebende Diagnostik&quot;), FUNK (&quot;Ergebnisse Funktionsdiagnostik&quot;), MKRO (&quot;Ergebnisse Mikrobiologie&quot;), PATH (&quot;Pathologiebefundberichte&quot;) oder VIRO (&quot;Ergebnisse Virologie&quot;). Auch die zugeh&#xF6;rigen Untersuchungsanforderungen werden mit diesem Konzept abgebildet.Beispiele: Laborbefund, PoCT-Befund, RIA-Befund, Anatomische Skizzen, Befundbogen, Bericht Gesundheitsuntersuchung, Krebsfr&#xFC;herkennung,&#xA0; Befund berufliche Belastungserprobung, Endokrinologiebefund, Fettstoffwechselanalytik, H&#xE4;mostaseologiebefund/Gerinnung, H&#xE4;matologiebefund, Klinische Chemie, Protein-Labor, Hb-Labor, Gesichtsfeldbefund, Blutgasanalyse, Blutzuckeranalyse, Laboranforderung"/>
                 </extension>
                 <code value="BEFU"/>
                 <display value="Ergebnisse Diagnostik"/>
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Dokumentation zur Planung und Durchf&#xFC;hrung von Radiotherapien, einschlie&#xDF;lich der ausgef&#xFC;llten Anamnese- und Aufkl&#xE4;rungsb&#xF6;gen zur Bestrahlungstherapie.Beispiele: Bestrahlungsplan, Bestrahlungsprotokoll, Bestrahlungsverordnung, Radiojodtherapieprotokoll, Therapieprotokoll mit Radionukleiden, Brachytherapieprotokoll, Bericht zur interventionellen Radioonkologie "/>
+                    <valueString value="Dokumentation zur Planung und Durchf&#xFC;hrung von Radiotherapien, einschlie&#xDF;lich der ausgef&#xFC;llten Anamnese- und Aufkl&#xE4;rungsb&#xF6;gen zur Bestrahlungstherapie.Beispiele: Bestrahlungsplan, Bestrahlungsprotokoll, Bestrahlungsverordnung, Radiojodtherapieprotokoll, Therapieprotokoll mit Radionukleiden, Brachytherapieprotokoll, Bericht zur interventionellen Radioonkologie"/>
                 </extension>
                 <code value="BSTR"/>
                 <display value="Bestrahlungsdokumentation"/>
@@ -101,7 +101,7 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Dokumente, Formulare und sonstige Erkl&#xE4;rungen, die der Patient im Verlauf des Versorgungsprozesses unterschreibt, einschlie&#xDF;lich dokumentierter Aufkl&#xE4;rungen. Ausnahmen: Vertr&#xE4;ge; Aufkl&#xE4;rungsb&#xF6;gen zu An&#xE4;sthesie und Bestrahlung werden &#xFC;ber die Konzepte ANAE (&quot;An&#xE4;sthesiedokumente&quot;) bzw. BSTR (&quot;Bestrahlungsdokumentation&quot;) abgebildet. Beispiele: Einwilligung zur Datenweitergabe, Einverst&#xE4;ndniserkl&#xE4;rung, Aufkl&#xE4;rungs- und Einwilligungsbogen zum chirurgischen Eingriff, Erkl&#xE4;rung zum Verlassen der Klinik gegen &#xE4;rztlichen Rat, vom Patienten unterschriebene Belehrungen "/>
+                    <valueString value="Dokumente, Formulare und sonstige Erkl&#xE4;rungen, die der Patient im Verlauf des Versorgungsprozesses unterschreibt, einschlie&#xDF;lich dokumentierter Aufkl&#xE4;rungen. Ausnahmen: Vertr&#xE4;ge; Aufkl&#xE4;rungsb&#xF6;gen zu An&#xE4;sthesie und Bestrahlung werden &#xFC;ber die Konzepte ANAE (&quot;An&#xE4;sthesiedokumente&quot;) bzw. BSTR (&quot;Bestrahlungsdokumentation&quot;) abgebildet. Beispiele: Einwilligung zur Datenweitergabe, Einverst&#xE4;ndniserkl&#xE4;rung, Aufkl&#xE4;rungs- und Einwilligungsbogen zum chirurgischen Eingriff, Erkl&#xE4;rung zum Verlassen der Klinik gegen &#xE4;rztlichen Rat, vom Patienten unterschriebene Belehrungen"/>
                 </extension>
                 <code value="EINW"/>
                 <display value="Einwilligungen/Aufkl&#xE4;rungen"/>
@@ -115,7 +115,7 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Untersuchungsergebnisse aus apparativer Diagnostik mit bildgebenden Verfahren, einschlie&#xDF;lich Bildern, Befunden und Beurteilungen. Auch Bilder und Befunde aus interventionellen radiologischen Verfahren werden mit diesem Konzept abgebildet. Auch die zugeh&#xF6;rigen Untersuchungsanforderungen werden mit diesem Konzept abgebildet.  Beispiele: Radiologiebefund, R&#xF6;ntgenbild (CR), CT, MRT, PET, Sonographie, Mammographie, Endoskopiebefund, Szintigraphie, Herzkatheter-Bericht, Echokardiographie, Bronchoskopiebefund, Neuroradiologischer Befund, Angiographiebefund, Anforderungsschein Duplexsonographie "/>
+                    <valueString value="Untersuchungsergebnisse aus apparativer Diagnostik mit bildgebenden Verfahren, einschlie&#xDF;lich Bildern, Befunden und Beurteilungen. Auch Bilder und Befunde aus interventionellen radiologischen Verfahren werden mit diesem Konzept abgebildet. Auch die zugeh&#xF6;rigen Untersuchungsanforderungen werden mit diesem Konzept abgebildet.  Beispiele: Radiologiebefund, R&#xF6;ntgenbild (CR), CT, MRT, PET, Sonographie, Mammographie, Endoskopiebefund, Szintigraphie, Herzkatheter-Bericht, Echokardiographie, Bronchoskopiebefund, Neuroradiologischer Befund, Angiographiebefund, Anforderungsschein Duplexsonographie"/>
                 </extension>
                 <code value="BILD"/>
                 <display value="Ergebnisse bildgebender Diagnostik"/>
@@ -136,42 +136,42 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="          Dokumentation zur Durchf&#xFC;hrung von Therapien, durch &#xE4;rztliche und nicht-&#xE4;rztliche Therapeuten. Auch die zugeh&#xF6;rigen Therapieanforderungen werden mit diesem Konzept abgebildet. Bei fachspezifischen Dokumententypen wie Bestrahlungsprotokollen, sollte stattdessen das spezifischere Konzept verwendet werden, z.B. BSTR (&quot;Bestrahlungsdokumentation&quot;), OPDK (&quot;OP-Dokumente&quot;). Reine Dokumentation der Medikation wird durch das Konzept MEDI (&quot;Medikament&#xF6;se Therapien&quot;) abgebildet. Beispiele: Ergotherapieprotokoll, Logop&#xE4;dieprotokoll, Physiotherapieprotokoll, Schmerztherapieprotokoll, Reanimationsprotokoll, Dialysedokumente, Psychotherapeutische Dokumente"/>
+                    <valueString value="Dokumentation zur Durchf&#xFC;hrung von Therapien, durch &#xE4;rztliche und nicht-&#xE4;rztliche Therapeuten. Auch die zugeh&#xF6;rigen Therapieanforderungen werden mit diesem Konzept abgebildet. Bei fachspezifischen Dokumententypen wie Bestrahlungsprotokollen, sollte stattdessen das spezifischere Konzept verwendet werden, z.B. BSTR (&quot;Bestrahlungsdokumentation&quot;), OPDK (&quot;OP-Dokumente&quot;). Reine Dokumentation der Medikation wird durch das Konzept MEDI (&quot;Medikament&#xF6;se Therapien&quot;) abgebildet. Beispiele: Ergotherapieprotokoll, Logop&#xE4;dieprotokoll, Physiotherapieprotokoll, Schmerztherapieprotokoll, Reanimationsprotokoll, Dialysedokumente, Psychotherapeutische Dokumente"/>
                 </extension>
                 <code value="FPRO"/>
                 <display value="Therapiedokumentation"/>
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Untersuchungsergebnisse der serologischen oder zellul&#xE4;ren Diagnostik f&#xFC;r Autoimmun- und Immundefekterkrankungen einschlie&#xDF;lich immunologischer Testergebnisse zu Seren, Punktaten, Abstrichen usw.; auch die zugeh&#xF6;rigen Untersuchungsanforderungen werden mit diesem Konzept abgebildet. Beachte verwandte Konzepte: MKRO (&quot;Ergebnisse Mikrobiologie&quot;) und VIRO (&quot;Ergebnisse Virologie&quot;).  Beispiele: Rheumaserologiebefund, Allergologiebefund/Autoantik&#xF6;rpertest, Complement-analytischer Befund, Befund der zellul&#xE4;ren Immundefektdiagnostik "/>
+                    <valueString value="Untersuchungsergebnisse der serologischen oder zellul&#xE4;ren Diagnostik f&#xFC;r Autoimmun- und Immundefekterkrankungen einschlie&#xDF;lich immunologischer Testergebnisse zu Seren, Punktaten, Abstrichen usw.; auch die zugeh&#xF6;rigen Untersuchungsanforderungen werden mit diesem Konzept abgebildet. Beachte verwandte Konzepte: MKRO (&quot;Ergebnisse Mikrobiologie&quot;) und VIRO (&quot;Ergebnisse Virologie&quot;).  Beispiele: Rheumaserologiebefund, Allergologiebefund/Autoantik&#xF6;rpertest, Complement-analytischer Befund, Befund der zellul&#xE4;ren Immundefektdiagnostik"/>
                 </extension>
                 <code value="IMMU"/>
                 <display value="Ergebnisse Immunologie"/>
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Dokumente, welche den station&#xE4;ren Aufenthalt und Krankheitsverlauf des Patienten sowie durchgef&#xFC;hrte Ma&#xDF;nahmen auf einer Intensivstation oder Intermediate Care Station beschreiben. Ausgenommen ist der intensivmedizinische Komplexbehandlungsbogen, dieser wird durch KOMP (&quot;Komplexbehandlungsbogen&quot;) abgebildet.  Beispiele: Beatmungsprotokoll, Intensivkurve, Intensivpflegebericht, Monitoringausdruck, Intensivdokumentationsbogen, Intensivmedizinische Scores/Assessments (SAPS-II, TISS, Glasgow Coma Scale,&#x2026;) "/>
+                    <valueString value="Dokumente, welche den station&#xE4;ren Aufenthalt und Krankheitsverlauf des Patienten sowie durchgef&#xFC;hrte Ma&#xDF;nahmen auf einer Intensivstation oder Intermediate Care Station beschreiben. Ausgenommen ist der intensivmedizinische Komplexbehandlungsbogen, dieser wird durch KOMP (&quot;Komplexbehandlungsbogen&quot;) abgebildet.  Beispiele: Beatmungsprotokoll, Intensivkurve, Intensivpflegebericht, Monitoringausdruck, Intensivdokumentationsbogen, Intensivmedizinische Scores/Assessments (SAPS-II, TISS, Glasgow Coma Scale,&#x2026;)"/>
                 </extension>
                 <code value="INTS"/>
                 <display value="Intensivmedizinische Dokumente"/>
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Alle Erfassungsb&#xF6;gen bzw. Datens&#xE4;tze zur hochaufwendigen Pflege oder Therapie (gem&#xE4;&#xDF; OPS 8-97...8-98) f&#xFC;r die genaue und vollst&#xE4;ndige Abrechnung (nach DRG).  Beispiele: Geriatrischer Komplexbehandlungsbogen, Intensivmedizinischer Komplexbehandlungsbogen, MRSA Komplexbehandlungsbogen, Neurologischer Komplexbehandlungsbogen, Palliativmedizinischer Komplexbehandlungsbogen, PKMS Bogen "/>
+                    <valueString value="Alle Erfassungsb&#xF6;gen bzw. Datens&#xE4;tze zur hochaufwendigen Pflege oder Therapie (gem&#xE4;&#xDF; OPS 8-97...8-98) f&#xFC;r die genaue und vollst&#xE4;ndige Abrechnung (nach DRG).  Beispiele: Geriatrischer Komplexbehandlungsbogen, Intensivmedizinischer Komplexbehandlungsbogen, MRSA Komplexbehandlungsbogen, Neurologischer Komplexbehandlungsbogen, Palliativmedizinischer Komplexbehandlungsbogen, PKMS Bogen"/>
                 </extension>
                 <code value="KOMP"/>
                 <display value="Komplexbehandlungsb&#xF6;gen"/>
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Therapieprotokolle zum Nachweis der Verabreichung oder Verordnung von Arzneimitteln.  Beispiele: Medikamentenplan, Chemotherapieprotokoll, Hormontherapieprotokoll, Apothekenbuch, Rezept, Anforderung Medikation "/>
+                    <valueString value="Therapieprotokolle zum Nachweis der Verabreichung oder Verordnung von Arzneimitteln.  Beispiele: Medikamentenplan, Chemotherapieprotokoll, Hormontherapieprotokoll, Apothekenbuch, Rezept, Anforderung Medikation"/>
                 </extension>
                 <code value="MEDI"/>
                 <display value="Medikament&#xF6;se Therapien"/>
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Untersuchungsergebnisse kultureller, serologischer oder molekularbiologischer Erregerdiagnostik zur bakteriologischen oder mikrobiologischen Analyse von Abstrichen, Punktaten, Sekreten, Seren usw.; auch die zugeh&#xF6;rigen Untersuchungsanforderungen werden mit diesem Konzept abgebildet. Beachte verwandte Konzepte: IMMU (&quot;Ergebnisse Immunologie&quot;) und VIRO (&quot;Ergebnisse Virologie&quot;). Beispiele: Befund &#xFC;ber Nachweis von pathogenen Bakterien, Mikrobiologiebefund, MRSA-Schnelltest, Anforderungsschein Mikrobiologie "/>
+                    <valueString value="Untersuchungsergebnisse kultureller, serologischer oder molekularbiologischer Erregerdiagnostik zur bakteriologischen oder mikrobiologischen Analyse von Abstrichen, Punktaten, Sekreten, Seren usw.; auch die zugeh&#xF6;rigen Untersuchungsanforderungen werden mit diesem Konzept abgebildet. Beachte verwandte Konzepte: IMMU (&quot;Ergebnisse Immunologie&quot;) und VIRO (&quot;Ergebnisse Virologie&quot;). Beispiele: Befund &#xFC;ber Nachweis von pathogenen Bakterien, Mikrobiologiebefund, MRSA-Schnelltest, Anforderungsschein Mikrobiologie"/>
                 </extension>
                 <code value="MKRO"/>
                 <display value="Ergebnisse Mikrobiologie"/>
@@ -220,7 +220,7 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Formulare, welche zur Qualit&#xE4;tssicherung der Krankenhausabl&#xE4;ufe ausgef&#xFC;llt werden m&#xFC;ssen.  Beispiele: Pflegestandards, Hygienestandards, Qualit&#xE4;tssicherungsb&#xF6;gen "/>
+                    <valueString value="Formulare, welche zur Qualit&#xE4;tssicherung der Krankenhausabl&#xE4;ufe ausgef&#xFC;llt werden m&#xFC;ssen.  Beispiele: Pflegestandards, Hygienestandards, Qualit&#xE4;tssicherungsb&#xF6;gen"/>
                 </extension>
                 <code value="QUAL"/>
                 <display value="Qualit&#xE4;tssicherung"/>
@@ -248,7 +248,7 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Dokumentation zu Leistungen des Sozialdienstes o.&#xE4;., bei denen Patienten &#xFC;ber verschiedene Unterst&#xFC;tzungsangebote informiert, beraten und bei Inanspruchnahme begleitet werden. Ausnahmen: siehe Konzept ANTR (&quot;Antr&#xE4;ge und deren Bescheide&quot;). Beispiele: Beratungsbogen sozialer Dienst, Soziotherapeutischer Betreuungsplan, Einsch&#xE4;tzung Sozialdienst, Abschlussbericht Sozialdienst, Entlassungsmanagement-Bericht, Hilfsmittel-Versorgungsplan, Empfehlungen zur h&#xE4;uslichen Unterbringung und Pflege "/>
+                    <valueString value="Dokumentation zu Leistungen des Sozialdienstes o.&#xE4;., bei denen Patienten &#xFC;ber verschiedene Unterst&#xFC;tzungsangebote informiert, beraten und bei Inanspruchnahme begleitet werden. Ausnahmen: siehe Konzept ANTR (&quot;Antr&#xE4;ge und deren Bescheide&quot;). Beispiele: Beratungsbogen sozialer Dienst, Soziotherapeutischer Betreuungsplan, Einsch&#xE4;tzung Sozialdienst, Abschlussbericht Sozialdienst, Entlassungsmanagement-Bericht, Hilfsmittel-Versorgungsplan, Empfehlungen zur h&#xE4;uslichen Unterbringung und Pflege"/>
                 </extension>
                 <code value="SOZI"/>
                 <display value="Sozialdienstdokumente"/>
@@ -262,14 +262,14 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Dokumentation von der Entnahme bis zur Transfusion aller Blutprodukte. Ausnahmen: Blutgruppenserologie, Immunh&#xE4;matologie usw. werden durch das Konzept BEFU (&quot;Ergebnisse Diagnostik&quot;) abgebildet.  Beispiele: Anforderung Blutkonserve, Blutspendeprotokoll, Bluttransfusionsprotokoll, Konservenbegleitschein, Herstellungs- und Pr&#xFC;fprotokolle von Blutkomponenten "/>
+                    <valueString value="Dokumentation von der Entnahme bis zur Transfusion aller Blutprodukte. Ausnahmen: Blutgruppenserologie, Immunh&#xE4;matologie usw. werden durch das Konzept BEFU (&quot;Ergebnisse Diagnostik&quot;) abgebildet.  Beispiele: Anforderung Blutkonserve, Blutspendeprotokoll, Bluttransfusionsprotokoll, Konservenbegleitschein, Herstellungs- und Pr&#xFC;fprotokolle von Blutkomponenten"/>
                 </extension>
                 <code value="TRFU"/>
                 <display value="Transfusionsdokumente"/>
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Dokumentation im Zusammenhang mit der Transplantation von Organen oder Gewebe, sowohl Transplantatspender als auch Transplantatempf&#xE4;nger betreffend. Ausgenommen sind Dokumente, in der Diagnostik und Therapie des Patienten festgehalten werden und die durch die entsprechenden spezifischeren Konzepte abgebildet werden, z.B. BEFU (&quot;Ergebnisse Diagnostik&quot;), OPDK (&quot;OP-Dokumente&quot;), usw.&#xA0; Beispiele: Transplantationsprotokoll, Spenderdokument "/>
+                    <valueString value="Dokumentation im Zusammenhang mit der Transplantation von Organen oder Gewebe, sowohl Transplantatspender als auch Transplantatempf&#xE4;nger betreffend. Ausgenommen sind Dokumente, in der Diagnostik und Therapie des Patienten festgehalten werden und die durch die entsprechenden spezifischeren Konzepte abgebildet werden, z.B. BEFU (&quot;Ergebnisse Diagnostik&quot;), OPDK (&quot;OP-Dokumente&quot;), usw.&#xA0; Beispiele: Transplantationsprotokoll, Spenderdokument"/>
                 </extension>
                 <code value="TRPL"/>
                 <display value="Transplantationsdokumente"/>
@@ -283,14 +283,14 @@
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Vertr&#xE4;ge, welche f&#xFC;r die station&#xE4;re/ambulante Versorgung abgeschlossen werden.  Beispiele: Behandlungsvertrag, Wahlleistungsvertrag, Heimvertrag "/>
+                    <valueString value="Vertr&#xE4;ge, welche f&#xFC;r die station&#xE4;re/ambulante Versorgung abgeschlossen werden.  Beispiele: Behandlungsvertrag, Wahlleistungsvertrag, Heimvertrag"/>
                 </extension>
                 <code value="VERT"/>
                 <display value="Vertr&#xE4;ge"/>
             </concept>
             <concept>
                 <extension url="http://hl7.org/fhir/StructureDefinition/valueset-concept-comments">
-                    <valueString value="Untersuchungsergebnisse der Virusdiagnostik einschlie&#xDF;lich virologischer Testergebnisse zu Abstrichen, Sekreten, Seren usw.; auch die zugeh&#xF6;rigen Untersuchungsanforderungen werden mit diesem Konzept abgebildet. Beachte verwandte Konzepte: IMMU (&quot;Ergebnisse Immunologie&quot;) und MKRO (&quot;Ergebnisse Mikrobiologie&quot;).  Beispiele: Befund &#xFC;ber Nachweis von humanpathogenen Viren, Virologiebefund, ELISA, Anforderungsschein Virologie "/>
+                    <valueString value="Untersuchungsergebnisse der Virusdiagnostik einschlie&#xDF;lich virologischer Testergebnisse zu Abstrichen, Sekreten, Seren usw.; auch die zugeh&#xF6;rigen Untersuchungsanforderungen werden mit diesem Konzept abgebildet. Beachte verwandte Konzepte: IMMU (&quot;Ergebnisse Immunologie&quot;) und MKRO (&quot;Ergebnisse Mikrobiologie&quot;).  Beispiele: Befund &#xFC;ber Nachweis von humanpathogenen Viren, Virologiebefund, ELISA, Anforderungsschein Virologie"/>
                 </extension>
                 <code value="VIRO"/>
                 <display value="Ergebnisse Virologie"/>
