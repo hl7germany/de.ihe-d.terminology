@@ -42,7 +42,7 @@ jobs:
       - name: Firely.Terminal (GitHub Actions)
         uses: FirelyTeam/firely-terminal-pipeline@v0.4.1
         with:
-          PATH_TO_CONFORMANCE_RESOURCES: terminologie/ValueSets
+          PATH_TO_CONFORMANCE_RESOURCES: terminologie/ValueSet/3.0 terminologie/CodeSystem/3.0
           DOTNET_VALIDATION_ENABLED: true
           JAVA_VALIDATION_ENABLED: true
           OUTPUT_FORMAT: RAW
