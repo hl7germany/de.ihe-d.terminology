@@ -40,12 +40,11 @@ jobs:
           java-version: '21'
         
       - name: Firely.Terminal (GitHub Actions)
-        uses: FirelyTeam/firely-terminal-pipeline@v0.4.1
+        uses: FirelyTeam/firely-terminal-pipeline@v0.5.0
         with:
           PATH_TO_CONFORMANCE_RESOURCES: terminologie/ValueSets
           DOTNET_VALIDATION_ENABLED: true
           JAVA_VALIDATION_ENABLED: true
-          OUTPUT_FORMAT: RAW
           EXPECTED_FAILS: VALIDATION_CONFORMANCE_JAVA
           SIMPLIFIER_USERNAME: ${{ secrets.SIMPLIFIER_USERNAME }}
           SIMPLIFIER_PASSWORD: ${{ secrets.SIMPLIFIER_PASSWORD }}
