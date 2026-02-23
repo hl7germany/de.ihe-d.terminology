@@ -40,7 +40,7 @@ jobs:
           java-version: '21'
         
       - name: Firely.Terminal (GitHub Actions)
-        uses: FirelyTeam/firely-terminal-pipeline@v0.7.30
+        uses: FirelyTeam/firely-terminal-pipeline@v0.7.31
         with:
           PATH_TO_CONFORMANCE_RESOURCES: terminologie/ValueSets
           DOTNET_VALIDATION_ENABLED: true
